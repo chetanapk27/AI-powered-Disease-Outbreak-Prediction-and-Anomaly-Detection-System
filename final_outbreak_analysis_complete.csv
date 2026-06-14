@@ -1,0 +1,501 @@
+Patient_ID,Date,Location,Age,Gender,Disease,Symptoms,Severity,Hospital_Admission,Anomaly,Outbreak_Alert,AQI,Temperature,Humidity,Rainfall,Tweet_Count,Sentiment,Latitude,Longitude
+P1000,11-02-2026,6,40,1,1,"Fever, cough, breathing difficulty",2,0,1,Normal,108,21,59,107,4834,Neutral,0,0
+P1001,01-04-2026,9,86,0,4,"Fever, chills, sweating",0,1,1,Normal,144,36,87,111,546,Neutral,0,0
+P1002,22-04-2026,3,18,0,1,"Fever, cough, breathing difficulty",1,0,1,Normal,200,34,34,193,3878,Negative,0,0
+P1003,23-03-2026,10,89,0,4,"Fever, chills, sweating",1,0,1,Normal,223,40,89,155,1554,Positive,0,0
+P1004,23-04-2026,1,23,1,5,"Fever, weakness, stomach pain",0,1,-1,Critical,66,26,71,85,3449,Positive,0,0
+P1005,08-05-2026,9,71,1,2,"Fever, body pain, rash",0,1,1,Normal,256,19,59,24,1968,Positive,0,0
+P1006,20-06-2026,11,28,0,2,"Fever, body pain, rash",2,1,1,Normal,167,41,67,17,3554,Neutral,0,0
+P1007,03-06-2026,14,48,0,5,"Fever, weakness, stomach pain",1,0,1,Normal,74,25,54,197,3587,Positive,0,0
+P1008,29-06-2026,2,47,0,1,"Fever, cough, breathing difficulty",0,1,1,Normal,210,39,82,50,3046,Negative,0,0
+P1009,17-05-2026,13,7,1,2,"Fever, body pain, rash",0,1,-1,Critical,210,23,59,104,990,Positive,0,0
+P1010,21-03-2026,4,58,1,5,"Fever, weakness, stomach pain",1,0,1,Normal,274,26,67,47,563,Positive,0,0
+P1011,12-02-2026,5,51,0,1,"Fever, cough, breathing difficulty",2,0,1,Normal,276,40,83,41,4220,Positive,0,0
+P1012,10-04-2026,6,69,0,5,"Fever, weakness, stomach pain",1,1,1,Normal,179,24,36,104,4095,Neutral,0,0
+P1013,30-04-2026,14,40,1,5,"Fever, weakness, stomach pain",1,0,1,Normal,228,33,78,99,4921,Negative,0,0
+P1014,27-05-2026,3,29,1,3,"Fever, cough, headache",1,0,1,Normal,85,34,61,193,4162,Positive,0,0
+P1015,23-01-2026,3,43,1,4,"Fever, chills, sweating",2,0,1,Normal,94,41,47,12,1265,Negative,0,0
+P1016,24-02-2026,6,32,1,4,"Fever, chills, sweating",2,0,1,Normal,116,33,50,9,2017,Negative,0,0
+P1017,23-01-2026,5,78,1,0,"Cough, wheezing, chest tightness",2,0,1,Normal,114,19,61,146,2922,Positive,0,0
+P1018,30-03-2026,0,58,0,1,"Fever, cough, breathing difficulty",1,0,1,Normal,133,21,57,89,3171,Neutral,0,0
+P1019,05-06-2026,5,23,0,0,"Cough, wheezing, chest tightness",1,0,1,Normal,206,24,94,64,298,Positive,0,0
+P1020,16-02-2026,13,83,1,4,"Fever, chills, sweating",2,0,1,Normal,209,30,84,99,1658,Negative,0,0
+P1021,09-04-2026,7,71,0,1,"Fever, cough, breathing difficulty",2,0,1,Normal,100,39,93,112,1337,Negative,0,0
+P1022,19-04-2026,10,38,1,2,"Fever, body pain, rash",0,1,1,Normal,184,18,55,127,4351,Neutral,0,0
+P1023,06-03-2026,6,29,1,0,"Cough, wheezing, chest tightness",1,1,1,Normal,261,37,64,100,2320,Neutral,0,0
+P1024,18-03-2026,12,44,1,2,"Fever, body pain, rash",0,1,1,Normal,272,31,51,58,1752,Negative,0,0
+P1025,02-02-2026,14,15,1,3,"Fever, cough, headache",2,1,1,Normal,167,21,93,144,902,Neutral,0,0
+P1026,30-06-2026,13,40,1,2,"Fever, body pain, rash",2,1,1,Normal,120,23,36,63,401,Negative,0,0
+P1027,25-05-2026,9,69,1,2,"Fever, body pain, rash",0,1,1,Normal,162,18,91,47,3280,Positive,0,0
+P1028,14-06-2026,4,3,0,5,"Fever, weakness, stomach pain",2,1,1,Normal,145,31,77,0,1083,Negative,0,0
+P1029,27-06-2026,2,67,0,2,"Fever, body pain, rash",2,1,1,Normal,245,31,88,121,1411,Negative,0,0
+P1030,16-04-2026,12,37,1,5,"Fever, weakness, stomach pain",1,1,1,Normal,211,25,56,38,733,Positive,0,0
+P1031,19-06-2026,5,75,1,4,"Fever, chills, sweating",1,0,1,Normal,267,36,68,10,3502,Positive,0,0
+P1032,11-02-2026,11,57,1,2,"Fever, body pain, rash",0,1,1,Normal,257,21,86,118,834,Neutral,0,0
+P1033,26-02-2026,10,66,0,4,"Fever, chills, sweating",1,1,1,Normal,71,35,78,130,3769,Neutral,0,0
+P1034,20-05-2026,14,74,1,3,"Fever, cough, headache",2,0,1,Normal,110,19,41,8,815,Positive,0,0
+P1035,20-05-2026,5,29,0,2,"Fever, body pain, rash",1,0,1,Normal,182,29,53,63,4338,Negative,0,0
+P1036,10-01-2026,9,76,1,3,"Fever, cough, headache",1,0,1,Normal,233,20,69,143,2991,Positive,0,0
+P1037,11-02-2026,3,14,1,2,"Fever, body pain, rash",1,1,1,Normal,258,41,67,143,2211,Neutral,0,0
+P1038,12-01-2026,10,55,0,2,"Fever, body pain, rash",1,0,1,Normal,283,24,69,158,2536,Positive,0,0
+P1039,12-01-2026,6,57,1,2,"Fever, body pain, rash",2,0,1,Normal,264,19,36,180,3451,Negative,0,0
+P1040,14-06-2026,5,15,1,5,"Fever, weakness, stomach pain",1,0,1,Normal,176,38,39,156,3038,Negative,0,0
+P1041,20-01-2026,11,55,1,5,"Fever, weakness, stomach pain",1,0,1,Normal,250,38,83,11,3139,Negative,0,0
+P1042,04-04-2026,5,9,1,3,"Fever, cough, headache",2,1,1,Normal,122,26,87,89,2798,Positive,0,0
+P1043,11-01-2026,5,88,0,4,"Fever, chills, sweating",1,0,1,Normal,150,18,64,52,2619,Neutral,0,0
+P1044,23-04-2026,10,36,1,5,"Fever, weakness, stomach pain",0,1,1,Normal,54,38,86,181,3743,Negative,0,0
+P1045,26-05-2026,12,69,0,2,"Fever, body pain, rash",1,0,1,Normal,216,23,51,96,1257,Negative,0,0
+P1046,02-05-2026,2,83,1,5,"Fever, weakness, stomach pain",0,1,-1,Critical,244,19,73,9,4434,Positive,0,0
+P1047,14-06-2026,4,83,1,2,"Fever, body pain, rash",1,1,1,Normal,128,40,75,193,211,Negative,0,0
+P1048,14-04-2026,14,39,0,5,"Fever, weakness, stomach pain",1,1,1,Normal,285,27,80,71,4585,Negative,0,0
+P1049,16-03-2026,9,49,0,0,"Cough, wheezing, chest tightness",1,1,1,Normal,123,19,38,19,2036,Negative,0,0
+P1050,25-01-2026,9,1,0,4,"Fever, chills, sweating",2,0,1,Normal,71,35,82,145,2149,Neutral,0,0
+P1051,11-06-2026,1,14,1,1,"Fever, cough, breathing difficulty",2,0,1,Normal,174,24,33,121,3491,Positive,0,0
+P1052,15-04-2026,12,77,1,4,"Fever, chills, sweating",2,0,1,Normal,181,39,88,183,4248,Negative,0,0
+P1053,24-05-2026,3,18,0,4,"Fever, chills, sweating",2,1,1,Normal,167,33,65,71,2034,Positive,0,0
+P1054,31-03-2026,5,42,1,1,"Fever, cough, breathing difficulty",1,1,1,Normal,102,33,34,146,4634,Neutral,0,0
+P1055,11-02-2026,6,86,0,3,"Fever, cough, headache",1,0,1,Normal,166,19,73,137,1490,Negative,0,0
+P1056,30-04-2026,4,74,1,3,"Fever, cough, headache",1,1,1,Normal,240,27,38,92,2829,Negative,0,0
+P1057,06-01-2026,0,73,0,1,"Fever, cough, breathing difficulty",1,0,1,Normal,220,20,73,88,4472,Positive,0,0
+P1058,08-06-2026,1,46,0,5,"Fever, weakness, stomach pain",1,1,1,Normal,194,37,70,152,4819,Neutral,0,0
+P1059,04-04-2026,8,77,0,4,"Fever, chills, sweating",1,0,1,Normal,210,38,76,83,4634,Negative,0,0
+P1060,15-05-2026,0,27,1,0,"Cough, wheezing, chest tightness",1,0,1,Normal,279,21,48,75,1131,Positive,0,0
+P1061,16-04-2026,3,22,0,2,"Fever, body pain, rash",1,1,1,Normal,74,32,81,29,3527,Positive,0,0
+P1062,06-03-2026,1,68,0,5,"Fever, weakness, stomach pain",0,1,-1,Critical,99,21,46,145,2768,Positive,0,0
+P1063,24-06-2026,1,73,1,1,"Fever, cough, breathing difficulty",2,0,1,Normal,72,40,34,17,1786,Neutral,0,0
+P1064,03-06-2026,4,31,1,1,"Fever, cough, breathing difficulty",2,0,1,Normal,90,22,62,75,1574,Positive,0,0
+P1065,15-01-2026,7,73,0,2,"Fever, body pain, rash",2,0,1,Normal,84,32,49,115,3106,Negative,0,0
+P1066,02-02-2026,7,7,1,0,"Cough, wheezing, chest tightness",2,0,1,Normal,82,22,91,133,1123,Neutral,0,0
+P1067,15-02-2026,2,57,0,1,"Fever, cough, breathing difficulty",1,0,1,Normal,95,30,32,146,542,Positive,0,0
+P1068,14-03-2026,4,30,1,5,"Fever, weakness, stomach pain",1,1,1,Normal,164,26,43,159,2211,Negative,0,0
+P1069,20-01-2026,7,67,1,0,"Cough, wheezing, chest tightness",1,0,1,Normal,216,33,34,186,131,Neutral,0,0
+P1070,01-06-2026,10,52,0,0,"Cough, wheezing, chest tightness",1,0,1,Normal,168,36,64,2,1918,Positive,0,0
+P1071,31-03-2026,6,68,1,2,"Fever, body pain, rash",1,0,1,Normal,191,22,38,96,405,Neutral,0,0
+P1072,19-01-2026,7,1,1,5,"Fever, weakness, stomach pain",1,1,1,Normal,122,29,93,151,1179,Neutral,0,0
+P1073,09-04-2026,10,15,1,4,"Fever, chills, sweating",2,1,1,Normal,270,20,45,120,3231,Positive,0,0
+P1074,12-03-2026,14,68,0,5,"Fever, weakness, stomach pain",1,1,1,Normal,150,37,81,56,1686,Positive,0,0
+P1075,27-05-2026,14,67,0,4,"Fever, chills, sweating",2,0,1,Normal,105,32,76,11,2176,Negative,0,0
+P1076,27-01-2026,8,87,1,3,"Fever, cough, headache",1,0,1,Normal,233,30,71,178,3993,Neutral,0,0
+P1077,12-05-2026,14,17,0,3,"Fever, cough, headache",2,0,1,Normal,102,38,33,150,1325,Negative,0,0
+P1078,20-02-2026,1,37,0,4,"Fever, chills, sweating",1,1,1,Normal,127,34,71,84,3649,Neutral,0,0
+P1079,06-01-2026,7,32,1,0,"Cough, wheezing, chest tightness",1,0,1,Normal,284,21,43,159,482,Positive,0,0
+P1080,02-06-2026,6,54,1,0,"Cough, wheezing, chest tightness",2,0,1,Normal,184,29,60,188,2520,Negative,0,0
+P1081,14-01-2026,12,9,0,1,"Fever, cough, breathing difficulty",2,1,1,Normal,104,18,58,1,3456,Negative,0,0
+P1082,14-03-2026,3,36,0,5,"Fever, weakness, stomach pain",2,1,1,Normal,73,19,49,31,3741,Positive,0,0
+P1083,23-06-2026,13,28,1,5,"Fever, weakness, stomach pain",1,1,1,Normal,116,40,57,97,3375,Negative,0,0
+P1084,27-05-2026,1,21,1,0,"Cough, wheezing, chest tightness",1,1,1,Normal,209,27,56,73,1154,Neutral,0,0
+P1085,22-06-2026,10,83,0,3,"Fever, cough, headache",1,0,1,Normal,221,38,63,124,290,Positive,0,0
+P1086,21-06-2026,11,56,1,5,"Fever, weakness, stomach pain",1,1,1,Normal,85,25,92,121,142,Positive,0,0
+P1087,30-04-2026,3,68,1,0,"Cough, wheezing, chest tightness",1,1,1,Normal,109,37,65,175,4508,Positive,0,0
+P1088,30-03-2026,7,23,1,5,"Fever, weakness, stomach pain",1,1,1,Normal,67,40,65,121,4025,Positive,0,0
+P1089,12-05-2026,6,61,1,0,"Cough, wheezing, chest tightness",2,1,1,Normal,219,20,63,150,3133,Positive,0,0
+P1090,21-01-2026,13,2,1,5,"Fever, weakness, stomach pain",1,1,1,Normal,261,23,58,78,4051,Positive,0,0
+P1091,20-03-2026,12,11,0,3,"Fever, cough, headache",2,1,1,Normal,78,29,51,9,1463,Negative,0,0
+P1092,10-02-2026,8,4,1,0,"Cough, wheezing, chest tightness",1,1,1,Normal,295,35,83,3,858,Negative,0,0
+P1093,25-02-2026,5,79,1,1,"Fever, cough, breathing difficulty",1,0,1,Normal,184,39,47,37,3612,Negative,0,0
+P1094,22-03-2026,3,79,0,5,"Fever, weakness, stomach pain",2,0,1,Normal,295,20,62,160,1236,Neutral,0,0
+P1095,20-06-2026,1,30,1,0,"Cough, wheezing, chest tightness",2,1,1,Normal,178,27,54,126,960,Neutral,0,0
+P1096,29-04-2026,1,81,0,1,"Fever, cough, breathing difficulty",1,0,1,Normal,115,33,48,165,2624,Negative,0,0
+P1097,30-04-2026,10,62,0,4,"Fever, chills, sweating",2,1,1,Normal,76,27,56,196,2579,Negative,0,0
+P1098,26-05-2026,2,2,1,0,"Cough, wheezing, chest tightness",0,1,-1,Critical,219,20,93,39,2469,Neutral,0,0
+P1099,25-01-2026,9,61,0,5,"Fever, weakness, stomach pain",2,1,1,Normal,78,32,53,163,2793,Neutral,0,0
+P1100,28-03-2026,8,5,0,0,"Cough, wheezing, chest tightness",1,1,1,Normal,179,37,62,186,2075,Negative,0,0
+P1101,16-06-2026,11,9,1,3,"Fever, cough, headache",0,1,1,Normal,162,23,91,175,1260,Neutral,0,0
+P1102,10-02-2026,4,62,1,3,"Fever, cough, headache",1,1,1,Normal,269,23,62,37,3531,Negative,0,0
+P1103,04-06-2026,13,75,0,5,"Fever, weakness, stomach pain",0,1,-1,Critical,174,35,53,17,1128,Negative,0,0
+P1104,23-06-2026,8,26,1,1,"Fever, cough, breathing difficulty",2,1,1,Normal,101,19,90,154,4444,Neutral,0,0
+P1105,06-06-2026,13,33,1,2,"Fever, body pain, rash",1,1,1,Normal,141,19,92,130,1534,Neutral,0,0
+P1106,25-05-2026,4,67,0,0,"Cough, wheezing, chest tightness",2,1,1,Normal,237,24,62,43,2091,Negative,0,0
+P1107,21-03-2026,8,89,0,1,"Fever, cough, breathing difficulty",0,1,1,Normal,192,23,65,94,4252,Negative,0,0
+P1108,03-02-2026,0,68,1,5,"Fever, weakness, stomach pain",1,0,1,Normal,153,31,33,103,2723,Negative,0,0
+P1109,06-01-2026,8,17,0,1,"Fever, cough, breathing difficulty",0,1,1,Normal,187,18,51,79,394,Neutral,0,0
+P1110,24-01-2026,11,60,0,5,"Fever, weakness, stomach pain",2,1,1,Normal,152,29,40,191,2463,Negative,0,0
+P1111,13-03-2026,3,86,1,1,"Fever, cough, breathing difficulty",1,0,1,Normal,140,30,51,87,2183,Neutral,0,0
+P1112,24-04-2026,2,19,0,4,"Fever, chills, sweating",1,1,1,Normal,53,41,30,17,2621,Positive,0,0
+P1113,15-02-2026,2,42,0,1,"Fever, cough, breathing difficulty",0,1,1,Normal,85,29,65,173,1617,Positive,0,0
+P1114,01-05-2026,5,37,1,5,"Fever, weakness, stomach pain",1,1,1,Normal,65,23,76,107,158,Negative,0,0
+P1115,01-02-2026,2,79,1,5,"Fever, weakness, stomach pain",1,0,1,Normal,88,32,55,37,4821,Neutral,0,0
+P1116,18-02-2026,10,33,0,4,"Fever, chills, sweating",1,1,1,Normal,64,20,80,95,1405,Neutral,0,0
+P1117,11-03-2026,11,29,0,0,"Cough, wheezing, chest tightness",1,0,1,Normal,66,34,51,125,514,Neutral,0,0
+P1118,07-01-2026,8,7,0,5,"Fever, weakness, stomach pain",1,1,1,Normal,94,41,79,47,4551,Neutral,0,0
+P1119,22-02-2026,4,68,1,2,"Fever, body pain, rash",1,1,1,Normal,111,19,80,32,846,Positive,0,0
+P1120,05-02-2026,3,18,1,5,"Fever, weakness, stomach pain",2,0,1,Normal,138,22,91,112,732,Negative,0,0
+P1121,25-06-2026,9,4,1,3,"Fever, cough, headache",1,1,1,Normal,115,26,52,176,4227,Negative,0,0
+P1122,19-06-2026,1,72,1,4,"Fever, chills, sweating",2,1,1,Normal,271,39,86,36,1316,Negative,0,0
+P1123,22-06-2026,5,17,0,4,"Fever, chills, sweating",0,1,1,Normal,179,32,39,45,3314,Positive,0,0
+P1124,29-06-2026,7,59,1,2,"Fever, body pain, rash",1,0,1,Normal,189,21,70,156,3861,Neutral,0,0
+P1125,17-03-2026,1,79,0,2,"Fever, body pain, rash",1,1,1,Normal,87,19,50,15,381,Positive,0,0
+P1126,03-05-2026,13,76,0,2,"Fever, body pain, rash",1,0,1,Normal,260,20,86,81,2764,Neutral,0,0
+P1127,10-02-2026,3,69,0,1,"Fever, cough, breathing difficulty",1,0,1,Normal,231,39,66,145,3991,Positive,0,0
+P1128,18-02-2026,9,69,1,3,"Fever, cough, headache",1,1,1,Normal,220,31,58,22,1003,Negative,0,0
+P1129,13-02-2026,5,16,0,4,"Fever, chills, sweating",2,1,1,Normal,148,38,65,23,2452,Neutral,0,0
+P1130,26-03-2026,13,76,1,2,"Fever, body pain, rash",1,1,1,Normal,59,20,61,133,2025,Neutral,0,0
+P1131,13-03-2026,10,49,1,2,"Fever, body pain, rash",1,0,1,Normal,259,37,79,11,4636,Negative,0,0
+P1132,05-06-2026,14,21,0,1,"Fever, cough, breathing difficulty",1,0,1,Normal,270,18,70,42,3619,Negative,0,0
+P1133,27-03-2026,2,75,1,1,"Fever, cough, breathing difficulty",1,1,1,Normal,183,25,80,142,202,Negative,0,0
+P1134,25-02-2026,5,81,1,2,"Fever, body pain, rash",2,0,1,Normal,69,38,71,108,412,Positive,0,0
+P1135,14-06-2026,14,87,0,4,"Fever, chills, sweating",1,1,1,Normal,288,37,85,14,261,Negative,0,0
+P1136,21-06-2026,9,76,1,2,"Fever, body pain, rash",2,0,1,Normal,106,20,88,78,3132,Negative,0,0
+P1137,14-06-2026,7,25,0,3,"Fever, cough, headache",1,1,1,Normal,175,32,43,42,2690,Positive,0,0
+P1138,22-03-2026,4,38,0,3,"Fever, cough, headache",2,1,1,Normal,191,25,44,41,3856,Positive,0,0
+P1139,10-06-2026,3,6,0,0,"Cough, wheezing, chest tightness",1,1,1,Normal,161,29,47,164,382,Negative,0,0
+P1140,17-06-2026,0,55,1,2,"Fever, body pain, rash",1,0,1,Normal,224,33,78,23,1036,Positive,0,0
+P1141,30-04-2026,13,67,0,0,"Cough, wheezing, chest tightness",1,1,1,Normal,225,23,69,46,4186,Neutral,0,0
+P1142,10-03-2026,13,32,1,2,"Fever, body pain, rash",2,1,1,Normal,270,39,54,48,4637,Negative,0,0
+P1143,14-03-2026,2,45,1,4,"Fever, chills, sweating",1,1,1,Normal,228,32,59,57,4640,Neutral,0,0
+P1144,29-03-2026,4,68,1,0,"Cough, wheezing, chest tightness",1,0,1,Normal,189,23,73,161,3414,Negative,0,0
+P1145,06-02-2026,8,83,0,0,"Cough, wheezing, chest tightness",1,1,1,Normal,153,22,31,173,1739,Positive,0,0
+P1146,26-06-2026,14,69,1,1,"Fever, cough, breathing difficulty",1,0,1,Normal,154,33,49,161,2734,Positive,0,0
+P1147,26-04-2026,8,49,0,2,"Fever, body pain, rash",1,1,1,Normal,134,20,88,54,1344,Neutral,0,0
+P1148,14-01-2026,1,27,1,0,"Cough, wheezing, chest tightness",2,1,1,Normal,293,19,94,88,3498,Neutral,0,0
+P1149,18-03-2026,13,36,0,5,"Fever, weakness, stomach pain",1,0,1,Normal,83,24,59,111,1830,Neutral,0,0
+P1150,21-04-2026,9,89,1,2,"Fever, body pain, rash",1,0,1,Normal,237,22,55,124,3294,Positive,0,0
+P1151,26-05-2026,5,36,0,3,"Fever, cough, headache",1,0,1,Normal,236,20,58,54,3830,Neutral,0,0
+P1152,22-05-2026,13,14,1,0,"Cough, wheezing, chest tightness",1,0,1,Normal,183,24,73,34,1470,Positive,0,0
+P1153,08-01-2026,14,49,0,1,"Fever, cough, breathing difficulty",0,1,-1,Critical,297,39,87,119,3455,Positive,0,0
+P1154,30-03-2026,9,52,0,3,"Fever, cough, headache",1,0,1,Normal,221,18,64,36,3974,Neutral,0,0
+P1155,01-02-2026,11,30,1,0,"Cough, wheezing, chest tightness",2,0,1,Normal,224,32,53,4,3309,Neutral,0,0
+P1156,11-05-2026,13,83,1,3,"Fever, cough, headache",2,1,1,Normal,193,25,82,7,4802,Negative,0,0
+P1157,03-01-2026,0,12,0,5,"Fever, weakness, stomach pain",1,0,1,Normal,68,38,49,127,689,Positive,0,0
+P1158,08-02-2026,7,4,0,3,"Fever, cough, headache",1,1,1,Normal,114,39,48,63,2914,Negative,0,0
+P1159,17-03-2026,8,90,0,0,"Cough, wheezing, chest tightness",0,1,-1,Critical,245,26,34,58,2921,Positive,0,0
+P1160,03-01-2026,5,74,0,3,"Fever, cough, headache",2,1,1,Normal,239,38,92,92,3285,Negative,0,0
+P1161,30-03-2026,3,58,1,4,"Fever, chills, sweating",1,0,1,Normal,288,19,47,56,4576,Positive,0,0
+P1162,25-01-2026,6,54,0,5,"Fever, weakness, stomach pain",1,1,1,Normal,156,23,94,116,1149,Negative,0,0
+P1163,18-05-2026,3,42,1,3,"Fever, cough, headache",2,0,1,Normal,127,39,61,38,655,Positive,0,0
+P1164,10-04-2026,7,33,1,2,"Fever, body pain, rash",2,0,1,Normal,171,21,41,37,1476,Neutral,0,0
+P1165,01-02-2026,10,38,1,0,"Cough, wheezing, chest tightness",1,1,1,Normal,121,18,60,145,2152,Neutral,0,0
+P1166,28-02-2026,13,81,0,0,"Cough, wheezing, chest tightness",1,1,1,Normal,263,21,49,39,1793,Positive,0,0
+P1167,18-03-2026,10,9,1,5,"Fever, weakness, stomach pain",0,1,-1,Critical,127,24,94,37,3718,Neutral,0,0
+P1168,04-04-2026,6,51,0,1,"Fever, cough, breathing difficulty",0,1,1,Normal,151,31,71,22,2915,Neutral,0,0
+P1169,14-04-2026,10,19,0,0,"Cough, wheezing, chest tightness",2,0,1,Normal,223,32,66,84,3507,Negative,0,0
+P1170,01-02-2026,1,14,1,4,"Fever, chills, sweating",1,1,1,Normal,276,24,63,154,4383,Negative,0,0
+P1171,21-01-2026,13,1,1,5,"Fever, weakness, stomach pain",1,0,1,Normal,213,35,64,152,557,Positive,0,0
+P1172,08-05-2026,6,22,0,4,"Fever, chills, sweating",0,1,1,Normal,149,39,56,26,4391,Negative,0,0
+P1173,13-01-2026,5,50,1,5,"Fever, weakness, stomach pain",1,0,1,Normal,247,26,57,110,2960,Positive,0,0
+P1174,27-02-2026,3,57,1,2,"Fever, body pain, rash",1,1,1,Normal,210,29,67,199,3614,Negative,0,0
+P1175,09-06-2026,1,26,0,5,"Fever, weakness, stomach pain",1,1,1,Normal,232,28,33,118,168,Positive,0,0
+P1176,25-04-2026,13,44,0,2,"Fever, body pain, rash",1,1,1,Normal,167,29,68,12,3217,Neutral,0,0
+P1177,22-06-2026,2,15,0,0,"Cough, wheezing, chest tightness",1,1,1,Normal,71,33,35,116,2447,Positive,0,0
+P1178,26-01-2026,7,76,0,0,"Cough, wheezing, chest tightness",0,1,-1,Critical,243,41,41,62,1554,Positive,0,0
+P1179,27-01-2026,7,23,0,0,"Cough, wheezing, chest tightness",1,1,1,Normal,129,18,46,92,279,Neutral,0,0
+P1180,06-03-2026,9,74,1,3,"Fever, cough, headache",1,0,1,Normal,102,18,78,162,222,Negative,0,0
+P1181,14-01-2026,2,80,0,0,"Cough, wheezing, chest tightness",1,1,1,Normal,292,41,80,66,1916,Negative,0,0
+P1182,10-06-2026,1,86,1,0,"Cough, wheezing, chest tightness",1,0,1,Normal,299,38,31,129,1110,Positive,0,0
+P1183,26-05-2026,5,64,1,0,"Cough, wheezing, chest tightness",2,1,1,Normal,104,25,62,156,4197,Negative,0,0
+P1184,16-05-2026,13,58,1,4,"Fever, chills, sweating",0,1,1,Normal,259,29,64,80,3622,Positive,0,0
+P1185,15-03-2026,14,12,1,1,"Fever, cough, breathing difficulty",1,0,1,Normal,115,20,50,80,2659,Positive,0,0
+P1186,11-01-2026,1,83,1,5,"Fever, weakness, stomach pain",1,0,1,Normal,55,33,78,146,4729,Neutral,0,0
+P1187,12-01-2026,0,61,1,1,"Fever, cough, breathing difficulty",2,0,1,Normal,66,40,82,144,2929,Neutral,0,0
+P1188,18-04-2026,4,11,0,1,"Fever, cough, breathing difficulty",1,1,1,Normal,69,31,51,138,4719,Negative,0,0
+P1189,05-01-2026,9,11,1,3,"Fever, cough, headache",1,1,1,Normal,89,35,40,96,2119,Neutral,0,0
+P1190,06-04-2026,12,38,0,5,"Fever, weakness, stomach pain",1,1,1,Normal,223,29,91,51,1785,Negative,0,0
+P1191,15-02-2026,0,73,1,5,"Fever, weakness, stomach pain",1,1,1,Normal,121,40,49,71,4934,Neutral,0,0
+P1192,09-02-2026,8,77,1,1,"Fever, cough, breathing difficulty",1,1,1,Normal,239,31,58,7,2682,Negative,0,0
+P1193,07-02-2026,14,69,1,3,"Fever, cough, headache",0,1,1,Normal,101,32,31,190,3075,Negative,0,0
+P1194,15-06-2026,0,82,1,2,"Fever, body pain, rash",0,1,-1,Critical,184,30,34,154,1056,Neutral,0,0
+P1195,23-03-2026,7,7,0,1,"Fever, cough, breathing difficulty",2,1,1,Normal,50,34,86,128,785,Neutral,0,0
+P1196,26-05-2026,1,19,1,5,"Fever, weakness, stomach pain",1,1,1,Normal,195,28,69,160,2085,Negative,0,0
+P1197,02-02-2026,11,37,1,1,"Fever, cough, breathing difficulty",1,1,1,Normal,265,18,75,29,3103,Negative,0,0
+P1198,23-02-2026,4,2,0,5,"Fever, weakness, stomach pain",2,1,1,Normal,252,21,82,192,3709,Neutral,0,0
+P1199,05-02-2026,1,46,0,2,"Fever, body pain, rash",2,0,1,Normal,160,19,72,111,4394,Negative,0,0
+P1200,22-04-2026,6,73,1,0,"Cough, wheezing, chest tightness",2,0,1,Normal,295,40,48,28,4727,Neutral,0,0
+P1201,02-03-2026,0,63,0,2,"Fever, body pain, rash",2,0,1,Normal,91,24,72,158,212,Negative,0,0
+P1202,13-05-2026,11,12,1,0,"Cough, wheezing, chest tightness",0,1,-1,Critical,82,35,62,156,3544,Positive,0,0
+P1203,19-02-2026,12,27,0,1,"Fever, cough, breathing difficulty",2,1,1,Normal,103,19,43,111,1486,Negative,0,0
+P1204,13-02-2026,6,22,1,4,"Fever, chills, sweating",0,1,1,Normal,153,37,78,107,1643,Neutral,0,0
+P1205,21-03-2026,8,42,0,2,"Fever, body pain, rash",0,1,1,Normal,243,35,36,16,1872,Positive,0,0
+P1206,02-02-2026,8,80,1,1,"Fever, cough, breathing difficulty",1,0,1,Normal,79,20,39,8,923,Neutral,0,0
+P1207,11-02-2026,13,68,1,2,"Fever, body pain, rash",2,1,1,Normal,249,26,52,177,3226,Neutral,0,0
+P1208,01-05-2026,2,42,0,2,"Fever, body pain, rash",2,1,1,Normal,280,20,82,97,4567,Positive,0,0
+P1209,12-03-2026,6,7,1,5,"Fever, weakness, stomach pain",2,0,1,Normal,197,34,57,27,2666,Positive,0,0
+P1210,23-02-2026,1,54,1,1,"Fever, cough, breathing difficulty",2,0,1,Normal,268,32,85,129,2738,Negative,0,0
+P1211,02-06-2026,0,15,0,2,"Fever, body pain, rash",2,1,1,Normal,168,26,38,135,2179,Positive,0,0
+P1212,02-04-2026,11,89,1,5,"Fever, weakness, stomach pain",1,0,1,Normal,162,32,86,196,3333,Negative,0,0
+P1213,09-01-2026,12,32,1,4,"Fever, chills, sweating",1,1,1,Normal,248,35,31,79,2095,Negative,0,0
+P1214,11-03-2026,11,24,0,3,"Fever, cough, headache",2,1,1,Normal,280,31,71,197,936,Positive,0,0
+P1215,20-05-2026,14,67,0,2,"Fever, body pain, rash",2,0,1,Normal,58,21,74,198,440,Neutral,0,0
+P1216,02-01-2026,3,73,1,2,"Fever, body pain, rash",2,1,1,Normal,214,27,45,196,3456,Positive,0,0
+P1217,11-01-2026,12,48,1,5,"Fever, weakness, stomach pain",1,1,1,Normal,96,33,31,198,3109,Positive,0,0
+P1218,28-02-2026,1,73,1,2,"Fever, body pain, rash",1,0,1,Normal,268,34,60,72,1118,Positive,0,0
+P1219,28-05-2026,13,9,1,0,"Cough, wheezing, chest tightness",2,1,-1,Critical,197,23,40,130,2048,Neutral,0,0
+P1220,05-06-2026,12,8,1,1,"Fever, cough, breathing difficulty",2,1,1,Normal,289,39,41,173,1232,Positive,0,0
+P1221,18-01-2026,10,60,0,2,"Fever, body pain, rash",1,1,1,Normal,121,38,41,162,3354,Positive,0,0
+P1222,15-06-2026,12,8,1,2,"Fever, body pain, rash",2,0,1,Normal,270,23,36,138,2146,Positive,0,0
+P1223,23-06-2026,13,39,1,4,"Fever, chills, sweating",1,1,1,Normal,52,41,67,144,2364,Neutral,0,0
+P1224,22-04-2026,9,6,0,5,"Fever, weakness, stomach pain",2,0,1,Normal,193,24,57,93,4534,Positive,0,0
+P1225,01-02-2026,2,46,0,3,"Fever, cough, headache",2,1,1,Normal,97,30,87,20,4440,Positive,0,0
+P1226,01-04-2026,12,65,1,1,"Fever, cough, breathing difficulty",1,1,1,Normal,118,20,59,92,1839,Neutral,0,0
+P1227,11-05-2026,8,40,1,5,"Fever, weakness, stomach pain",1,1,1,Normal,184,24,64,173,3082,Negative,0,0
+P1228,12-05-2026,14,59,0,1,"Fever, cough, breathing difficulty",1,1,1,Normal,80,34,58,33,1990,Neutral,0,0
+P1229,18-03-2026,5,33,1,3,"Fever, cough, headache",1,1,1,Normal,70,22,79,24,1217,Negative,0,0
+P1230,22-04-2026,4,43,0,0,"Cough, wheezing, chest tightness",1,0,1,Normal,124,38,32,118,1961,Positive,0,0
+P1231,27-01-2026,10,1,1,4,"Fever, chills, sweating",1,0,1,Normal,177,27,47,169,1797,Negative,0,0
+P1232,01-05-2026,11,31,1,2,"Fever, body pain, rash",1,0,1,Normal,255,19,90,104,208,Positive,0,0
+P1233,08-04-2026,1,52,1,5,"Fever, weakness, stomach pain",2,1,1,Normal,127,24,53,11,3873,Positive,0,0
+P1234,16-01-2026,8,74,1,1,"Fever, cough, breathing difficulty",2,0,1,Normal,262,36,38,60,2349,Neutral,0,0
+P1235,07-04-2026,4,55,0,0,"Cough, wheezing, chest tightness",2,0,1,Normal,155,35,91,107,4772,Positive,0,0
+P1236,18-06-2026,0,24,0,2,"Fever, body pain, rash",2,1,1,Normal,119,37,39,83,3123,Neutral,0,0
+P1237,26-02-2026,0,24,1,0,"Cough, wheezing, chest tightness",1,1,1,Normal,180,30,59,69,3443,Neutral,0,0
+P1238,05-05-2026,0,5,0,3,"Fever, cough, headache",1,0,1,Normal,296,22,93,158,3320,Negative,0,0
+P1239,09-06-2026,7,33,1,5,"Fever, weakness, stomach pain",1,1,1,Normal,202,26,89,165,4912,Negative,0,0
+P1240,14-04-2026,7,81,1,4,"Fever, chills, sweating",1,0,1,Normal,169,38,59,108,579,Positive,0,0
+P1241,26-05-2026,4,54,1,5,"Fever, weakness, stomach pain",0,1,1,Normal,93,28,47,91,4708,Positive,0,0
+P1242,20-06-2026,0,15,1,4,"Fever, chills, sweating",2,1,1,Normal,271,30,80,93,1529,Positive,0,0
+P1243,13-02-2026,2,49,1,2,"Fever, body pain, rash",2,0,1,Normal,168,32,91,152,4610,Negative,0,0
+P1244,01-06-2026,10,28,0,0,"Cough, wheezing, chest tightness",1,1,1,Normal,256,32,51,120,4289,Positive,0,0
+P1245,27-04-2026,9,38,1,3,"Fever, cough, headache",0,1,1,Normal,233,25,76,176,997,Positive,0,0
+P1246,18-05-2026,11,13,0,1,"Fever, cough, breathing difficulty",2,1,1,Normal,203,26,82,7,1403,Negative,0,0
+P1247,15-04-2026,14,3,0,3,"Fever, cough, headache",2,1,1,Normal,296,41,40,179,1726,Neutral,0,0
+P1248,12-04-2026,8,86,0,1,"Fever, cough, breathing difficulty",1,0,1,Normal,212,25,67,168,4959,Neutral,0,0
+P1249,11-02-2026,1,23,0,0,"Cough, wheezing, chest tightness",0,1,-1,Critical,154,22,63,181,1625,Neutral,0,0
+P1250,04-05-2026,3,68,0,3,"Fever, cough, headache",1,0,1,Normal,191,22,67,78,600,Positive,0,0
+P1251,17-02-2026,2,41,0,1,"Fever, cough, breathing difficulty",1,0,1,Normal,89,27,44,156,4154,Positive,0,0
+P1252,13-01-2026,0,87,0,1,"Fever, cough, breathing difficulty",0,1,-1,Critical,133,39,65,87,2312,Positive,0,0
+P1253,11-01-2026,10,36,0,2,"Fever, body pain, rash",2,1,1,Normal,182,19,68,195,3018,Positive,0,0
+P1254,13-02-2026,4,72,0,5,"Fever, weakness, stomach pain",2,1,1,Normal,296,19,93,10,3972,Neutral,0,0
+P1255,15-02-2026,6,10,0,4,"Fever, chills, sweating",2,1,1,Normal,147,23,37,169,3001,Negative,0,0
+P1256,28-03-2026,13,34,1,0,"Cough, wheezing, chest tightness",1,0,1,Normal,157,31,47,168,650,Neutral,0,0
+P1257,29-06-2026,11,8,0,3,"Fever, cough, headache",2,0,1,Normal,295,34,80,144,448,Negative,0,0
+P1258,02-04-2026,3,87,0,4,"Fever, chills, sweating",1,0,1,Normal,249,23,63,157,4230,Negative,0,0
+P1259,21-04-2026,9,90,1,1,"Fever, cough, breathing difficulty",1,0,1,Normal,151,36,51,15,4022,Negative,0,0
+P1260,13-04-2026,11,70,0,5,"Fever, weakness, stomach pain",2,1,1,Normal,76,34,56,114,4268,Negative,0,0
+P1261,15-01-2026,8,12,0,0,"Cough, wheezing, chest tightness",1,1,1,Normal,153,41,70,4,3608,Positive,0,0
+P1262,09-03-2026,5,49,0,3,"Fever, cough, headache",2,0,1,Normal,258,28,79,127,1240,Neutral,0,0
+P1263,05-06-2026,14,24,1,4,"Fever, chills, sweating",1,1,1,Normal,138,29,57,160,2315,Negative,0,0
+P1264,07-04-2026,6,17,0,3,"Fever, cough, headache",2,1,1,Normal,202,40,89,113,261,Negative,0,0
+P1265,10-02-2026,8,59,1,1,"Fever, cough, breathing difficulty",0,1,1,Normal,249,23,84,60,4095,Negative,0,0
+P1266,28-02-2026,8,57,0,3,"Fever, cough, headache",1,1,1,Normal,117,32,72,77,4265,Neutral,0,0
+P1267,20-02-2026,14,59,1,4,"Fever, chills, sweating",1,0,1,Normal,178,21,45,66,458,Negative,0,0
+P1268,22-01-2026,0,67,1,4,"Fever, chills, sweating",1,1,1,Normal,144,21,80,41,2617,Positive,0,0
+P1269,23-03-2026,8,47,1,5,"Fever, weakness, stomach pain",1,0,1,Normal,218,25,51,70,1540,Negative,0,0
+P1270,07-01-2026,3,5,1,5,"Fever, weakness, stomach pain",1,0,1,Normal,82,34,83,102,662,Neutral,0,0
+P1271,20-05-2026,0,48,0,2,"Fever, body pain, rash",1,1,1,Normal,80,33,59,68,4440,Negative,0,0
+P1272,09-04-2026,10,16,1,5,"Fever, weakness, stomach pain",1,1,1,Normal,113,30,74,25,817,Positive,0,0
+P1273,22-03-2026,14,89,1,0,"Cough, wheezing, chest tightness",0,1,-1,Critical,57,32,56,146,891,Negative,0,0
+P1274,27-05-2026,8,1,1,1,"Fever, cough, breathing difficulty",2,1,1,Normal,196,35,59,85,2720,Negative,0,0
+P1275,25-02-2026,13,71,0,4,"Fever, chills, sweating",0,1,-1,Critical,133,28,47,21,4602,Negative,0,0
+P1276,08-04-2026,6,59,0,4,"Fever, chills, sweating",0,1,1,Normal,262,24,86,70,1123,Negative,0,0
+P1277,15-06-2026,6,13,1,0,"Cough, wheezing, chest tightness",2,1,1,Normal,84,37,82,170,4653,Negative,0,0
+P1278,20-05-2026,7,1,1,3,"Fever, cough, headache",2,0,1,Normal,113,27,90,83,1841,Negative,0,0
+P1279,15-03-2026,10,33,1,2,"Fever, body pain, rash",2,1,1,Normal,210,28,54,195,282,Negative,0,0
+P1280,19-04-2026,11,24,1,5,"Fever, weakness, stomach pain",1,1,1,Normal,107,36,92,61,4526,Positive,0,0
+P1281,04-06-2026,2,66,1,2,"Fever, body pain, rash",2,0,1,Normal,78,27,90,145,2019,Neutral,0,0
+P1282,09-05-2026,13,55,1,5,"Fever, weakness, stomach pain",1,0,1,Normal,125,37,73,146,3492,Negative,0,0
+P1283,03-05-2026,3,32,1,5,"Fever, weakness, stomach pain",2,1,1,Normal,182,28,63,55,2337,Neutral,0,0
+P1284,02-06-2026,0,24,1,5,"Fever, weakness, stomach pain",2,0,1,Normal,259,32,65,173,3338,Neutral,0,0
+P1285,02-06-2026,2,85,1,3,"Fever, cough, headache",2,0,1,Normal,186,39,63,125,1909,Positive,0,0
+P1286,08-05-2026,5,79,1,1,"Fever, cough, breathing difficulty",2,0,1,Normal,91,32,33,124,3063,Positive,0,0
+P1287,06-03-2026,1,84,0,1,"Fever, cough, breathing difficulty",2,0,1,Normal,199,24,49,13,3985,Positive,0,0
+P1288,20-01-2026,4,67,1,4,"Fever, chills, sweating",1,0,1,Normal,298,40,64,54,1352,Negative,0,0
+P1289,22-02-2026,3,32,1,1,"Fever, cough, breathing difficulty",2,1,1,Normal,298,20,70,192,2917,Neutral,0,0
+P1290,22-01-2026,1,32,1,5,"Fever, weakness, stomach pain",1,0,1,Normal,237,24,66,161,3619,Positive,0,0
+P1291,10-04-2026,11,3,0,1,"Fever, cough, breathing difficulty",0,1,-1,Critical,91,18,35,12,3013,Neutral,0,0
+P1292,19-01-2026,2,40,0,3,"Fever, cough, headache",1,1,1,Normal,190,29,86,136,3382,Positive,0,0
+P1293,22-06-2026,1,71,1,3,"Fever, cough, headache",0,1,1,Normal,286,25,47,43,2065,Negative,0,0
+P1294,07-04-2026,0,81,0,5,"Fever, weakness, stomach pain",1,1,1,Normal,260,41,38,88,3793,Negative,0,0
+P1295,30-06-2026,3,80,0,2,"Fever, body pain, rash",1,1,1,Normal,54,27,85,127,4523,Positive,0,0
+P1296,24-06-2026,1,6,1,5,"Fever, weakness, stomach pain",2,1,1,Normal,73,32,92,152,3351,Neutral,0,0
+P1297,11-02-2026,9,20,0,0,"Cough, wheezing, chest tightness",1,0,1,Normal,179,34,73,148,2255,Neutral,0,0
+P1298,07-03-2026,11,46,1,0,"Cough, wheezing, chest tightness",1,1,1,Normal,169,31,62,77,537,Negative,0,0
+P1299,01-04-2026,6,37,0,0,"Cough, wheezing, chest tightness",1,1,1,Normal,290,33,31,82,1325,Neutral,0,0
+P1300,06-01-2026,12,3,1,5,"Fever, weakness, stomach pain",1,0,1,Normal,109,39,87,55,3598,Positive,0,0
+P1301,13-01-2026,4,18,0,5,"Fever, weakness, stomach pain",2,0,1,Normal,153,36,68,171,1013,Positive,0,0
+P1302,06-02-2026,10,85,0,5,"Fever, weakness, stomach pain",0,1,-1,Critical,120,36,40,111,4206,Neutral,0,0
+P1303,30-03-2026,9,4,1,5,"Fever, weakness, stomach pain",1,0,1,Normal,50,36,55,50,2450,Negative,0,0
+P1304,18-01-2026,9,89,1,3,"Fever, cough, headache",2,1,1,Normal,166,41,42,157,2874,Negative,0,0
+P1305,19-03-2026,4,41,0,0,"Cough, wheezing, chest tightness",2,1,1,Normal,198,20,80,26,4044,Negative,0,0
+P1306,02-04-2026,12,87,1,5,"Fever, weakness, stomach pain",0,1,-1,Critical,251,32,35,176,3400,Positive,0,0
+P1307,24-06-2026,5,8,1,1,"Fever, cough, breathing difficulty",1,1,1,Normal,199,19,43,55,4520,Negative,0,0
+P1308,10-06-2026,2,79,0,1,"Fever, cough, breathing difficulty",1,1,1,Normal,222,26,77,66,875,Positive,0,0
+P1309,15-04-2026,4,72,1,5,"Fever, weakness, stomach pain",0,1,-1,Critical,251,26,89,91,4228,Neutral,0,0
+P1310,25-03-2026,7,45,1,0,"Cough, wheezing, chest tightness",0,1,1,Normal,245,41,32,40,728,Neutral,0,0
+P1311,17-05-2026,4,22,0,0,"Cough, wheezing, chest tightness",2,0,1,Normal,204,40,46,56,2750,Positive,0,0
+P1312,08-02-2026,3,53,0,4,"Fever, chills, sweating",1,0,1,Normal,53,30,48,79,2377,Neutral,0,0
+P1313,24-06-2026,7,60,0,2,"Fever, body pain, rash",1,1,1,Normal,237,19,93,123,798,Neutral,0,0
+P1314,22-02-2026,3,74,1,3,"Fever, cough, headache",1,0,1,Normal,126,33,41,82,4632,Positive,0,0
+P1315,23-04-2026,14,21,0,1,"Fever, cough, breathing difficulty",2,1,1,Normal,93,24,78,168,1234,Neutral,0,0
+P1316,16-03-2026,12,53,0,2,"Fever, body pain, rash",2,1,1,Normal,138,24,80,137,1971,Positive,0,0
+P1317,06-04-2026,3,79,0,0,"Cough, wheezing, chest tightness",2,0,1,Normal,123,39,52,28,3489,Negative,0,0
+P1318,10-05-2026,13,40,0,4,"Fever, chills, sweating",1,1,1,Normal,207,22,56,188,2999,Positive,0,0
+P1319,16-02-2026,13,79,0,5,"Fever, weakness, stomach pain",1,1,1,Normal,277,18,74,175,3095,Neutral,0,0
+P1320,12-06-2026,4,89,0,4,"Fever, chills, sweating",1,1,1,Normal,240,18,78,64,3878,Neutral,0,0
+P1321,02-04-2026,10,1,0,3,"Fever, cough, headache",1,0,1,Normal,275,18,75,130,598,Neutral,0,0
+P1322,17-04-2026,8,38,0,1,"Fever, cough, breathing difficulty",2,0,1,Normal,171,38,53,79,2944,Negative,0,0
+P1323,08-02-2026,0,81,0,2,"Fever, body pain, rash",1,1,1,Normal,188,26,59,178,1910,Positive,0,0
+P1324,05-05-2026,10,55,0,0,"Cough, wheezing, chest tightness",1,1,1,Normal,174,36,33,44,3533,Negative,0,0
+P1325,22-01-2026,2,62,1,0,"Cough, wheezing, chest tightness",1,0,1,Normal,147,23,91,95,2902,Negative,0,0
+P1326,28-02-2026,13,8,0,4,"Fever, chills, sweating",1,0,1,Normal,110,19,46,194,3457,Positive,0,0
+P1327,19-05-2026,11,42,1,1,"Fever, cough, breathing difficulty",1,1,1,Normal,268,40,41,21,172,Negative,0,0
+P1328,24-06-2026,12,9,0,0,"Cough, wheezing, chest tightness",2,0,1,Normal,94,23,40,44,622,Negative,0,0
+P1329,18-04-2026,8,35,0,5,"Fever, weakness, stomach pain",0,1,1,Normal,226,27,91,100,218,Positive,0,0
+P1330,23-06-2026,11,41,1,3,"Fever, cough, headache",0,1,1,Normal,157,30,82,118,2449,Negative,0,0
+P1331,30-05-2026,4,75,1,0,"Cough, wheezing, chest tightness",1,0,1,Normal,183,22,69,24,3539,Positive,0,0
+P1332,17-03-2026,8,52,0,0,"Cough, wheezing, chest tightness",2,1,1,Normal,77,27,43,131,1103,Positive,0,0
+P1333,31-01-2026,14,79,0,2,"Fever, body pain, rash",2,1,1,Normal,235,28,86,9,3008,Neutral,0,0
+P1334,17-02-2026,7,28,0,2,"Fever, body pain, rash",0,1,1,Normal,157,38,91,78,1342,Negative,0,0
+P1335,23-02-2026,6,87,1,4,"Fever, chills, sweating",1,1,1,Normal,183,23,69,142,4092,Negative,0,0
+P1336,14-05-2026,3,53,0,4,"Fever, chills, sweating",0,1,1,Normal,218,20,94,170,3241,Negative,0,0
+P1337,29-05-2026,10,4,0,5,"Fever, weakness, stomach pain",2,0,1,Normal,75,31,69,11,1009,Positive,0,0
+P1338,13-04-2026,6,56,0,1,"Fever, cough, breathing difficulty",1,1,1,Normal,297,34,52,152,2292,Positive,0,0
+P1339,02-06-2026,13,44,0,5,"Fever, weakness, stomach pain",1,1,1,Normal,120,24,48,56,718,Negative,0,0
+P1340,12-05-2026,10,53,0,5,"Fever, weakness, stomach pain",1,1,1,Normal,117,37,55,46,4147,Negative,0,0
+P1341,12-04-2026,3,21,0,5,"Fever, weakness, stomach pain",1,0,1,Normal,235,36,64,4,2748,Negative,0,0
+P1342,21-06-2026,13,73,0,3,"Fever, cough, headache",1,0,1,Normal,87,31,89,35,2902,Positive,0,0
+P1343,15-01-2026,11,9,1,1,"Fever, cough, breathing difficulty",1,0,1,Normal,262,22,39,12,4534,Neutral,0,0
+P1344,03-06-2026,0,43,0,5,"Fever, weakness, stomach pain",2,0,1,Normal,59,24,79,8,4883,Positive,0,0
+P1345,28-06-2026,5,68,0,3,"Fever, cough, headache",1,1,1,Normal,79,21,78,122,219,Negative,0,0
+P1346,16-03-2026,2,14,1,1,"Fever, cough, breathing difficulty",1,1,1,Normal,200,29,94,66,1931,Neutral,0,0
+P1347,12-05-2026,1,44,1,3,"Fever, cough, headache",1,0,1,Normal,100,38,92,52,3730,Negative,0,0
+P1348,02-03-2026,9,33,0,3,"Fever, cough, headache",1,0,1,Normal,97,38,79,49,3282,Negative,0,0
+P1349,23-01-2026,8,70,0,1,"Fever, cough, breathing difficulty",1,1,1,Normal,180,22,88,11,3872,Neutral,0,0
+P1350,22-04-2026,11,83,1,5,"Fever, weakness, stomach pain",0,1,-1,Critical,133,40,84,65,3894,Neutral,0,0
+P1351,28-05-2026,0,19,1,0,"Cough, wheezing, chest tightness",1,1,1,Normal,264,41,62,146,4054,Neutral,0,0
+P1352,18-06-2026,6,16,1,2,"Fever, body pain, rash",1,1,1,Normal,67,40,55,123,1393,Negative,0,0
+P1353,20-05-2026,2,74,1,0,"Cough, wheezing, chest tightness",0,1,-1,Critical,81,38,93,74,2000,Positive,0,0
+P1354,23-05-2026,4,20,0,3,"Fever, cough, headache",1,1,1,Normal,247,34,75,113,392,Negative,0,0
+P1355,12-06-2026,5,50,0,3,"Fever, cough, headache",2,1,1,Normal,193,29,68,91,3244,Positive,0,0
+P1356,12-01-2026,4,56,0,2,"Fever, body pain, rash",0,1,1,Normal,265,40,47,155,1245,Negative,0,0
+P1357,12-05-2026,13,66,0,1,"Fever, cough, breathing difficulty",1,1,1,Normal,256,32,61,73,4604,Negative,0,0
+P1358,17-01-2026,0,57,0,1,"Fever, cough, breathing difficulty",1,1,1,Normal,284,18,55,125,3349,Negative,0,0
+P1359,25-01-2026,3,57,1,1,"Fever, cough, breathing difficulty",1,1,1,Normal,68,37,86,89,4717,Neutral,0,0
+P1360,27-01-2026,0,38,0,2,"Fever, body pain, rash",0,1,1,Normal,176,28,68,39,4154,Positive,0,0
+P1361,31-03-2026,1,12,1,1,"Fever, cough, breathing difficulty",1,1,1,Normal,152,26,59,102,1228,Negative,0,0
+P1362,10-05-2026,13,70,1,0,"Cough, wheezing, chest tightness",1,0,1,Normal,191,20,44,113,4943,Negative,0,0
+P1363,13-05-2026,13,65,1,4,"Fever, chills, sweating",1,1,1,Normal,215,39,92,183,2542,Neutral,0,0
+P1364,20-02-2026,13,31,0,2,"Fever, body pain, rash",1,1,1,Normal,246,40,74,180,2150,Negative,0,0
+P1365,31-01-2026,9,1,1,2,"Fever, body pain, rash",2,0,1,Normal,260,19,75,114,4362,Positive,0,0
+P1366,13-05-2026,11,9,1,3,"Fever, cough, headache",2,0,1,Normal,247,21,55,53,1764,Neutral,0,0
+P1367,30-05-2026,3,15,0,1,"Fever, cough, breathing difficulty",2,0,1,Normal,205,31,31,55,3364,Neutral,0,0
+P1368,22-05-2026,6,50,0,2,"Fever, body pain, rash",1,0,1,Normal,157,36,87,100,1359,Negative,0,0
+P1369,10-02-2026,13,83,1,3,"Fever, cough, headache",2,0,1,Normal,291,41,88,6,2429,Negative,0,0
+P1370,20-04-2026,0,5,0,1,"Fever, cough, breathing difficulty",1,1,1,Normal,147,22,84,125,3093,Negative,0,0
+P1371,10-04-2026,3,25,0,1,"Fever, cough, breathing difficulty",2,1,1,Normal,146,21,76,22,1351,Neutral,0,0
+P1372,20-04-2026,14,63,1,4,"Fever, chills, sweating",1,0,1,Normal,237,24,77,62,2854,Negative,0,0
+P1373,18-05-2026,5,65,1,4,"Fever, chills, sweating",1,1,1,Normal,281,31,87,188,4268,Negative,0,0
+P1374,18-02-2026,8,5,1,4,"Fever, chills, sweating",1,0,1,Normal,168,29,93,74,4473,Neutral,0,0
+P1375,30-05-2026,11,23,0,2,"Fever, body pain, rash",1,0,1,Normal,190,39,93,37,712,Positive,0,0
+P1376,27-04-2026,5,80,1,1,"Fever, cough, breathing difficulty",1,1,1,Normal,128,29,65,154,2399,Negative,0,0
+P1377,02-06-2026,14,60,0,1,"Fever, cough, breathing difficulty",2,1,1,Normal,103,37,41,130,1613,Positive,0,0
+P1378,01-01-2026,4,49,1,2,"Fever, body pain, rash",1,1,1,Normal,155,35,88,21,819,Negative,0,0
+P1379,06-03-2026,8,48,0,2,"Fever, body pain, rash",1,0,1,Normal,206,35,83,109,636,Positive,0,0
+P1380,16-03-2026,12,11,1,0,"Cough, wheezing, chest tightness",1,0,1,Normal,116,19,61,160,1228,Positive,0,0
+P1381,29-05-2026,12,1,0,5,"Fever, weakness, stomach pain",1,1,1,Normal,290,29,69,163,858,Negative,0,0
+P1382,02-03-2026,9,89,0,1,"Fever, cough, breathing difficulty",1,1,1,Normal,241,27,66,18,4698,Positive,0,0
+P1383,20-04-2026,2,45,0,4,"Fever, chills, sweating",1,1,1,Normal,93,21,82,193,4936,Negative,0,0
+P1384,27-02-2026,5,40,0,2,"Fever, body pain, rash",1,1,1,Normal,240,27,42,139,2983,Negative,0,0
+P1385,26-06-2026,8,31,0,4,"Fever, chills, sweating",1,1,1,Normal,187,20,92,125,3205,Negative,0,0
+P1386,28-02-2026,14,65,0,3,"Fever, cough, headache",2,1,1,Normal,194,18,91,138,313,Neutral,0,0
+P1387,17-04-2026,9,50,0,1,"Fever, cough, breathing difficulty",0,1,1,Normal,191,34,52,194,2609,Neutral,0,0
+P1388,16-01-2026,1,11,1,5,"Fever, weakness, stomach pain",2,0,1,Normal,224,37,78,130,1686,Positive,0,0
+P1389,05-04-2026,11,76,0,3,"Fever, cough, headache",1,0,1,Normal,126,40,91,162,2541,Positive,0,0
+P1390,20-02-2026,1,48,0,4,"Fever, chills, sweating",2,0,1,Normal,111,38,41,30,1129,Negative,0,0
+P1391,08-02-2026,3,11,1,0,"Cough, wheezing, chest tightness",1,1,1,Normal,63,41,48,196,262,Negative,0,0
+P1392,27-01-2026,1,19,0,2,"Fever, body pain, rash",2,0,1,Normal,266,33,62,76,1880,Negative,0,0
+P1393,09-04-2026,5,52,1,1,"Fever, cough, breathing difficulty",1,1,1,Normal,271,28,58,57,3325,Positive,0,0
+P1394,27-04-2026,7,23,0,0,"Cough, wheezing, chest tightness",2,1,1,Normal,54,41,52,185,585,Negative,0,0
+P1395,31-01-2026,12,60,0,5,"Fever, weakness, stomach pain",0,1,1,Normal,58,31,75,176,2551,Negative,0,0
+P1396,18-06-2026,4,89,0,0,"Cough, wheezing, chest tightness",1,1,1,Normal,135,35,84,74,1482,Neutral,0,0
+P1397,29-05-2026,9,46,0,5,"Fever, weakness, stomach pain",1,1,1,Normal,146,35,49,138,2922,Negative,0,0
+P1398,22-02-2026,7,78,1,2,"Fever, body pain, rash",1,0,1,Normal,208,37,88,78,2923,Neutral,0,0
+P1399,09-01-2026,10,9,0,2,"Fever, body pain, rash",1,1,1,Normal,252,26,54,117,4065,Positive,0,0
+P1400,22-01-2026,12,16,0,4,"Fever, chills, sweating",2,1,1,Normal,99,34,73,10,2743,Positive,0,0
+P1401,25-04-2026,1,67,0,2,"Fever, body pain, rash",2,0,1,Normal,280,20,75,169,659,Positive,0,0
+P1402,19-06-2026,2,15,0,0,"Cough, wheezing, chest tightness",2,0,1,Normal,188,20,49,70,4753,Neutral,0,0
+P1403,05-02-2026,4,57,1,2,"Fever, body pain, rash",2,0,1,Normal,131,22,56,145,562,Negative,0,0
+P1404,24-06-2026,4,49,1,4,"Fever, chills, sweating",1,0,1,Normal,116,36,64,169,513,Positive,0,0
+P1405,07-05-2026,14,62,0,3,"Fever, cough, headache",2,1,1,Normal,170,31,54,144,1443,Neutral,0,0
+P1406,24-06-2026,7,75,0,4,"Fever, chills, sweating",1,1,1,Normal,150,27,34,157,165,Neutral,0,0
+P1407,14-06-2026,2,12,1,0,"Cough, wheezing, chest tightness",1,1,1,Normal,240,32,51,155,738,Neutral,0,0
+P1408,07-03-2026,0,53,1,4,"Fever, chills, sweating",1,1,1,Normal,142,20,59,48,3072,Neutral,0,0
+P1409,13-06-2026,14,41,1,4,"Fever, chills, sweating",1,0,1,Normal,237,34,43,61,502,Negative,0,0
+P1410,25-02-2026,10,82,1,2,"Fever, body pain, rash",2,1,1,Normal,181,40,87,77,1943,Positive,0,0
+P1411,07-02-2026,11,37,1,3,"Fever, cough, headache",2,1,1,Normal,82,36,61,57,504,Neutral,0,0
+P1412,01-02-2026,13,70,0,1,"Fever, cough, breathing difficulty",2,1,1,Normal,197,18,49,37,1135,Neutral,0,0
+P1413,04-04-2026,12,15,1,4,"Fever, chills, sweating",1,1,1,Normal,206,32,42,103,2735,Neutral,0,0
+P1414,15-05-2026,4,44,0,0,"Cough, wheezing, chest tightness",2,1,1,Normal,278,22,31,196,220,Neutral,0,0
+P1415,18-06-2026,9,56,0,5,"Fever, weakness, stomach pain",1,1,1,Normal,272,31,89,73,621,Positive,0,0
+P1416,14-05-2026,14,57,0,5,"Fever, weakness, stomach pain",2,0,1,Normal,274,29,53,74,1059,Positive,0,0
+P1417,11-03-2026,6,33,0,5,"Fever, weakness, stomach pain",1,1,1,Normal,112,29,82,113,2771,Negative,0,0
+P1418,27-04-2026,3,75,0,4,"Fever, chills, sweating",1,0,1,Normal,135,35,32,117,1512,Neutral,0,0
+P1419,01-01-2026,12,63,0,0,"Cough, wheezing, chest tightness",2,0,1,Normal,142,39,65,97,416,Negative,0,0
+P1420,23-03-2026,3,10,1,4,"Fever, chills, sweating",1,1,1,Normal,119,38,68,42,1075,Positive,0,0
+P1421,06-01-2026,1,5,1,3,"Fever, cough, headache",2,0,1,Normal,292,36,56,104,1005,Negative,0,0
+P1422,13-06-2026,10,79,0,4,"Fever, chills, sweating",2,0,1,Normal,278,25,72,48,3415,Negative,0,0
+P1423,25-05-2026,8,57,1,4,"Fever, chills, sweating",1,1,1,Normal,167,19,81,157,906,Negative,0,0
+P1424,20-05-2026,9,43,0,5,"Fever, weakness, stomach pain",0,1,1,Normal,111,26,47,17,4778,Negative,0,0
+P1425,20-02-2026,7,15,0,1,"Fever, cough, breathing difficulty",1,0,1,Normal,125,37,73,84,667,Negative,0,0
+P1426,18-05-2026,3,39,0,2,"Fever, body pain, rash",1,0,1,Normal,160,34,64,121,4871,Negative,0,0
+P1427,10-06-2026,11,55,0,4,"Fever, chills, sweating",2,0,1,Normal,158,21,52,159,4821,Neutral,0,0
+P1428,02-03-2026,11,28,0,0,"Cough, wheezing, chest tightness",0,1,1,Normal,52,39,64,27,1731,Positive,0,0
+P1429,16-04-2026,2,60,1,5,"Fever, weakness, stomach pain",2,0,1,Normal,189,34,38,30,853,Neutral,0,0
+P1430,06-02-2026,0,51,0,5,"Fever, weakness, stomach pain",2,1,1,Normal,207,36,48,118,2556,Neutral,0,0
+P1431,09-01-2026,11,24,0,2,"Fever, body pain, rash",0,1,1,Normal,75,41,58,83,626,Neutral,0,0
+P1432,28-01-2026,12,79,1,3,"Fever, cough, headache",1,1,1,Normal,240,41,89,185,1776,Positive,0,0
+P1433,15-03-2026,1,49,1,3,"Fever, cough, headache",1,0,1,Normal,107,25,75,96,3511,Positive,0,0
+P1434,20-02-2026,0,74,0,5,"Fever, weakness, stomach pain",2,0,1,Normal,130,37,87,117,1505,Positive,0,0
+P1435,08-01-2026,13,77,1,3,"Fever, cough, headache",1,1,1,Normal,169,36,54,183,517,Negative,0,0
+P1436,31-01-2026,6,48,0,0,"Cough, wheezing, chest tightness",1,0,1,Normal,157,34,47,155,1240,Negative,0,0
+P1437,20-01-2026,8,78,0,4,"Fever, chills, sweating",2,0,1,Normal,106,29,81,129,1497,Positive,0,0
+P1438,30-06-2026,9,73,0,3,"Fever, cough, headache",1,0,1,Normal,150,32,88,75,4020,Negative,0,0
+P1439,16-02-2026,6,53,1,2,"Fever, body pain, rash",0,1,1,Normal,273,20,75,48,4534,Positive,0,0
+P1440,08-04-2026,7,38,1,5,"Fever, weakness, stomach pain",0,1,1,Normal,158,39,31,53,557,Neutral,0,0
+P1441,21-01-2026,0,65,0,3,"Fever, cough, headache",2,1,1,Normal,284,36,82,179,1757,Negative,0,0
+P1442,21-04-2026,11,80,1,3,"Fever, cough, headache",2,1,1,Normal,151,31,57,14,4364,Neutral,0,0
+P1443,31-03-2026,4,67,0,0,"Cough, wheezing, chest tightness",2,0,1,Normal,299,18,44,180,4669,Negative,0,0
+P1444,14-03-2026,3,81,1,1,"Fever, cough, breathing difficulty",1,0,1,Normal,267,18,46,90,1458,Neutral,0,0
+P1445,26-01-2026,8,68,0,0,"Cough, wheezing, chest tightness",1,0,1,Normal,248,26,37,80,1225,Neutral,0,0
+P1446,03-03-2026,7,61,1,1,"Fever, cough, breathing difficulty",2,1,1,Normal,139,24,33,24,4583,Negative,0,0
+P1447,07-03-2026,1,69,0,3,"Fever, cough, headache",1,1,1,Normal,298,27,87,128,3414,Positive,0,0
+P1448,28-04-2026,0,72,1,1,"Fever, cough, breathing difficulty",2,1,1,Normal,231,41,65,199,3968,Positive,0,0
+P1449,01-02-2026,1,52,1,3,"Fever, cough, headache",1,1,1,Normal,243,22,43,146,1303,Positive,0,0
+P1450,18-02-2026,0,70,1,3,"Fever, cough, headache",1,1,1,Normal,171,23,76,158,4066,Positive,0,0
+P1451,05-03-2026,13,81,0,1,"Fever, cough, breathing difficulty",1,1,1,Normal,89,23,45,69,3650,Negative,0,0
+P1452,29-05-2026,0,16,1,5,"Fever, weakness, stomach pain",2,1,1,Normal,143,18,87,32,4069,Positive,0,0
+P1453,20-05-2026,11,82,0,1,"Fever, cough, breathing difficulty",1,0,1,Normal,178,31,57,123,3301,Positive,0,0
+P1454,28-02-2026,9,46,0,1,"Fever, cough, breathing difficulty",2,0,1,Normal,159,41,57,190,1660,Negative,0,0
+P1455,08-05-2026,4,61,0,1,"Fever, cough, breathing difficulty",1,0,1,Normal,131,19,66,132,4481,Positive,0,0
+P1456,14-04-2026,13,14,0,3,"Fever, cough, headache",2,0,1,Normal,180,35,60,69,3091,Positive,0,0
+P1457,28-05-2026,2,31,0,1,"Fever, cough, breathing difficulty",1,0,1,Normal,88,36,74,187,4092,Negative,0,0
+P1458,29-04-2026,7,48,0,1,"Fever, cough, breathing difficulty",1,0,1,Normal,172,21,50,14,2453,Negative,0,0
+P1459,05-04-2026,13,55,0,5,"Fever, weakness, stomach pain",0,1,1,Normal,294,31,39,61,3976,Positive,0,0
+P1460,12-03-2026,1,46,0,3,"Fever, cough, headache",1,0,1,Normal,204,30,37,126,3204,Neutral,0,0
+P1461,18-06-2026,14,29,1,3,"Fever, cough, headache",1,0,1,Normal,115,33,43,87,1251,Neutral,0,0
+P1462,17-05-2026,1,38,0,4,"Fever, chills, sweating",0,1,1,Normal,172,35,43,17,709,Negative,0,0
+P1463,14-01-2026,9,41,0,3,"Fever, cough, headache",2,0,1,Normal,205,22,56,21,997,Negative,0,0
+P1464,06-06-2026,11,86,1,2,"Fever, body pain, rash",0,1,1,Normal,206,20,42,186,4908,Positive,0,0
+P1465,06-06-2026,9,79,0,0,"Cough, wheezing, chest tightness",0,1,1,Normal,151,23,50,151,1884,Positive,0,0
+P1466,03-04-2026,0,51,0,5,"Fever, weakness, stomach pain",1,0,1,Normal,134,41,53,173,3979,Neutral,0,0
+P1467,06-02-2026,12,64,0,4,"Fever, chills, sweating",1,0,1,Normal,283,19,37,182,3517,Negative,0,0
+P1468,28-05-2026,4,66,1,3,"Fever, cough, headache",2,0,1,Normal,196,19,45,44,2297,Neutral,0,0
+P1469,24-04-2026,7,88,0,5,"Fever, weakness, stomach pain",0,1,-1,Critical,59,40,65,96,4378,Neutral,0,0
+P1470,06-01-2026,8,56,1,2,"Fever, body pain, rash",1,0,1,Normal,251,40,85,195,1968,Negative,0,0
+P1471,20-04-2026,2,1,1,5,"Fever, weakness, stomach pain",1,0,1,Normal,240,36,89,40,4166,Negative,0,0
+P1472,21-01-2026,0,33,0,3,"Fever, cough, headache",1,1,1,Normal,208,35,30,118,4779,Negative,0,0
+P1473,23-01-2026,7,26,0,3,"Fever, cough, headache",1,0,1,Normal,151,35,93,172,3040,Positive,0,0
+P1474,31-01-2026,11,12,1,5,"Fever, weakness, stomach pain",0,1,1,Normal,68,20,43,73,863,Positive,0,0
+P1475,10-02-2026,2,76,0,3,"Fever, cough, headache",1,0,1,Normal,135,27,52,146,1787,Positive,0,0
+P1476,23-01-2026,13,34,1,3,"Fever, cough, headache",0,1,1,Normal,90,28,87,166,1719,Neutral,0,0
+P1477,21-06-2026,12,66,1,1,"Fever, cough, breathing difficulty",1,0,1,Normal,259,22,83,21,903,Negative,0,0
+P1478,10-05-2026,1,84,0,2,"Fever, body pain, rash",1,0,1,Normal,84,22,86,173,1506,Negative,0,0
+P1479,13-05-2026,11,20,0,5,"Fever, weakness, stomach pain",2,1,1,Normal,56,23,35,120,3460,Positive,0,0
+P1480,12-05-2026,10,85,0,5,"Fever, weakness, stomach pain",2,1,1,Normal,218,20,75,148,1668,Negative,0,0
+P1481,08-02-2026,12,69,1,0,"Cough, wheezing, chest tightness",2,0,1,Normal,162,37,42,51,2666,Positive,0,0
+P1482,21-01-2026,5,27,0,0,"Cough, wheezing, chest tightness",1,1,1,Normal,124,38,52,103,3843,Positive,0,0
+P1483,14-02-2026,0,70,1,2,"Fever, body pain, rash",1,1,1,Normal,200,27,70,14,3754,Negative,0,0
+P1484,29-05-2026,1,64,0,2,"Fever, body pain, rash",0,1,1,Normal,212,34,64,103,3708,Positive,0,0
+P1485,14-04-2026,0,16,0,0,"Cough, wheezing, chest tightness",2,1,1,Normal,55,32,49,124,741,Negative,0,0
+P1486,23-05-2026,11,47,1,1,"Fever, cough, breathing difficulty",1,1,1,Normal,170,40,82,24,4102,Neutral,0,0
+P1487,18-05-2026,7,42,1,0,"Cough, wheezing, chest tightness",0,1,1,Normal,77,26,51,27,4107,Positive,0,0
+P1488,03-06-2026,4,20,0,3,"Fever, cough, headache",2,0,1,Normal,220,29,69,0,102,Positive,0,0
+P1489,24-05-2026,14,3,0,3,"Fever, cough, headache",1,1,1,Normal,175,36,51,26,2997,Neutral,0,0
+P1490,04-04-2026,2,37,1,4,"Fever, chills, sweating",1,1,1,Normal,113,27,83,119,1468,Positive,0,0
+P1491,29-03-2026,12,67,1,4,"Fever, chills, sweating",1,1,1,Normal,83,26,61,112,3174,Negative,0,0
+P1492,18-02-2026,2,27,1,2,"Fever, body pain, rash",1,0,1,Normal,155,23,75,135,1694,Negative,0,0
+P1493,03-05-2026,6,73,1,0,"Cough, wheezing, chest tightness",2,0,1,Normal,260,23,92,180,4360,Positive,0,0
+P1494,14-05-2026,4,61,1,0,"Cough, wheezing, chest tightness",2,1,1,Normal,92,23,94,113,4830,Neutral,0,0
+P1495,25-05-2026,14,20,1,2,"Fever, body pain, rash",1,0,1,Normal,256,40,44,59,1803,Neutral,0,0
+P1496,18-05-2026,0,30,1,3,"Fever, cough, headache",1,1,1,Normal,216,34,93,125,1229,Neutral,0,0
+P1497,20-06-2026,10,17,1,4,"Fever, chills, sweating",2,1,1,Normal,195,26,83,139,2858,Neutral,0,0
+P1498,23-05-2026,2,6,1,0,"Cough, wheezing, chest tightness",2,1,1,Normal,229,27,49,49,396,Neutral,0,0
+P1499,11-04-2026,14,69,1,1,"Fever, cough, breathing difficulty",0,1,-1,Critical,241,33,92,22,3041,Positive,0,0

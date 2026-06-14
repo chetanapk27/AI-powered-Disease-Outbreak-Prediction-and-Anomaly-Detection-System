@@ -1,0 +1,501 @@
+Patient_ID,Date,Location,Age,Gender,Disease,Symptoms,Severity,Hospital_Admission,AQI,Temperature,Humidity,Rainfall,Tweet_Count,Sentiment,Latitude,Longitude
+P1000,11-02-2026,Indore,40,Male,COVID-19,"Fever, cough, breathing difficulty",Medium,No,234,21,34,6,2184,Positive,0.0,0.0
+P1001,01-04-2026,Lucknow,86,Female,Malaria,"Fever, chills, sweating",High,Yes,70,32,86,53,3973,Positive,0.0,0.0
+P1002,22-04-2026,Chennai,18,Female,COVID-19,"Fever, cough, breathing difficulty",Low,No,268,35,81,162,597,Positive,13.0827,80.2707
+P1003,23-03-2026,Mumbai,89,Female,Malaria,"Fever, chills, sweating",Low,No,245,34,86,175,4809,Positive,19.076,72.8777
+P1004,23-04-2026,Bangalore,23,Male,Typhoid,"Fever, weakness, stomach pain",High,Yes,254,31,54,108,539,Neutral,12.9716,77.5946
+P1005,08-05-2026,Lucknow,71,Male,Dengue,"Fever, body pain, rash",High,Yes,274,30,91,2,2925,Negative,0.0,0.0
+P1006,20-06-2026,Nagpur,28,Female,Dengue,"Fever, body pain, rash",Medium,Yes,85,19,66,164,3452,Negative,0.0,0.0
+P1007,03-06-2026,Surat,48,Female,Typhoid,"Fever, weakness, stomach pain",Low,No,257,26,53,86,4370,Positive,0.0,0.0
+P1008,29-06-2026,Bhopal,47,Female,COVID-19,"Fever, cough, breathing difficulty",High,Yes,292,27,30,190,1971,Neutral,0.0,0.0
+P1009,17-05-2026,Pune,7,Male,Dengue,"Fever, body pain, rash",High,Yes,146,33,70,10,3722,Negative,18.5204,73.8567
+P1010,21-03-2026,Delhi,58,Male,Typhoid,"Fever, weakness, stomach pain",Low,No,225,25,47,152,2173,Neutral,28.7041,77.1025
+P1011,12-02-2026,Hyderabad,51,Female,COVID-19,"Fever, cough, breathing difficulty",Medium,No,284,25,64,138,4455,Neutral,17.385,78.4867
+P1012,10-04-2026,Indore,69,Female,Typhoid,"Fever, weakness, stomach pain",Low,Yes,82,34,79,13,412,Neutral,0.0,0.0
+P1013,30-04-2026,Surat,40,Male,Typhoid,"Fever, weakness, stomach pain",Low,No,83,23,73,81,467,Positive,0.0,0.0
+P1014,27-05-2026,Chennai,29,Male,Flu,"Fever, cough, headache",Low,No,61,41,59,92,2044,Neutral,13.0827,80.2707
+P1015,23-01-2026,Chennai,43,Male,Malaria,"Fever, chills, sweating",Medium,No,163,28,42,84,3883,Neutral,13.0827,80.2707
+P1016,24-02-2026,Indore,32,Male,Malaria,"Fever, chills, sweating",Medium,No,260,24,61,82,2269,Neutral,0.0,0.0
+P1017,23-01-2026,Hyderabad,78,Male,Asthma,"Cough, wheezing, chest tightness",Medium,No,75,27,49,1,263,Neutral,17.385,78.4867
+P1018,30-03-2026,Ahmedabad,58,Female,COVID-19,"Fever, cough, breathing difficulty",Low,No,93,39,32,72,381,Positive,23.0225,72.5714
+P1019,05-06-2026,Hyderabad,23,Female,Asthma,"Cough, wheezing, chest tightness",Low,No,65,18,71,156,1990,Positive,17.385,78.4867
+P1020,16-02-2026,Pune,83,Male,Malaria,"Fever, chills, sweating",Medium,No,186,21,38,106,3262,Negative,18.5204,73.8567
+P1021,09-04-2026,Jaipur,71,Female,COVID-19,"Fever, cough, breathing difficulty",Medium,No,241,24,60,158,2151,Negative,0.0,0.0
+P1022,19-04-2026,Mumbai,38,Male,Dengue,"Fever, body pain, rash",High,Yes,207,35,44,77,2735,Neutral,19.076,72.8777
+P1023,06-03-2026,Indore,29,Male,Asthma,"Cough, wheezing, chest tightness",Low,Yes,299,32,61,147,2344,Positive,0.0,0.0
+P1024,18-03-2026,Patna,44,Male,Dengue,"Fever, body pain, rash",High,Yes,285,26,89,41,239,Positive,0.0,0.0
+P1025,02-02-2026,Surat,15,Male,Flu,"Fever, cough, headache",Medium,Yes,221,25,61,167,2676,Positive,0.0,0.0
+P1026,30-06-2026,Pune,40,Male,Dengue,"Fever, body pain, rash",Medium,Yes,133,37,30,172,2431,Negative,18.5204,73.8567
+P1027,25-05-2026,Lucknow,69,Male,Dengue,"Fever, body pain, rash",High,Yes,119,24,66,28,3234,Positive,0.0,0.0
+P1028,14-06-2026,Delhi,3,Female,Typhoid,"Fever, weakness, stomach pain",Medium,Yes,260,18,70,157,3093,Positive,28.7041,77.1025
+P1029,27-06-2026,Bhopal,67,Female,Dengue,"Fever, body pain, rash",Medium,Yes,79,22,57,191,3738,Neutral,0.0,0.0
+P1030,16-04-2026,Patna,37,Male,Typhoid,"Fever, weakness, stomach pain",Low,Yes,170,37,38,79,295,Positive,0.0,0.0
+P1031,19-06-2026,Hyderabad,75,Male,Malaria,"Fever, chills, sweating",Low,No,69,25,83,134,1829,Positive,17.385,78.4867
+P1032,11-02-2026,Nagpur,57,Male,Dengue,"Fever, body pain, rash",High,Yes,206,38,59,197,1156,Negative,0.0,0.0
+P1033,26-02-2026,Mumbai,66,Female,Malaria,"Fever, chills, sweating",Low,Yes,71,33,37,127,3931,Negative,19.076,72.8777
+P1034,20-05-2026,Surat,74,Male,Flu,"Fever, cough, headache",Medium,No,207,20,88,8,1964,Neutral,0.0,0.0
+P1035,20-05-2026,Hyderabad,29,Female,Dengue,"Fever, body pain, rash",Low,No,123,18,71,6,239,Neutral,17.385,78.4867
+P1036,10-01-2026,Lucknow,76,Male,Flu,"Fever, cough, headache",Low,No,159,29,39,11,1976,Negative,0.0,0.0
+P1037,11-02-2026,Chennai,14,Male,Dengue,"Fever, body pain, rash",Low,Yes,138,39,57,83,248,Neutral,13.0827,80.2707
+P1038,12-01-2026,Mumbai,55,Female,Dengue,"Fever, body pain, rash",Low,No,124,38,42,66,2038,Positive,19.076,72.8777
+P1039,12-01-2026,Indore,57,Male,Dengue,"Fever, body pain, rash",Medium,No,296,38,67,9,105,Positive,0.0,0.0
+P1040,14-06-2026,Hyderabad,15,Male,Typhoid,"Fever, weakness, stomach pain",Low,No,77,34,55,18,2599,Negative,17.385,78.4867
+P1041,20-01-2026,Nagpur,55,Male,Typhoid,"Fever, weakness, stomach pain",Low,No,129,27,59,48,3375,Neutral,0.0,0.0
+P1042,04-04-2026,Hyderabad,9,Male,Flu,"Fever, cough, headache",Medium,Yes,256,36,93,92,667,Negative,17.385,78.4867
+P1043,11-01-2026,Hyderabad,88,Female,Malaria,"Fever, chills, sweating",Low,No,172,33,73,121,2017,Positive,17.385,78.4867
+P1044,23-04-2026,Mumbai,36,Male,Typhoid,"Fever, weakness, stomach pain",High,Yes,157,36,80,84,250,Neutral,19.076,72.8777
+P1045,26-05-2026,Patna,69,Female,Dengue,"Fever, body pain, rash",Low,No,58,21,74,87,4976,Negative,0.0,0.0
+P1046,02-05-2026,Bhopal,83,Male,Typhoid,"Fever, weakness, stomach pain",High,Yes,106,32,52,21,3486,Negative,0.0,0.0
+P1047,14-06-2026,Delhi,83,Male,Dengue,"Fever, body pain, rash",Low,Yes,202,38,84,65,3692,Neutral,28.7041,77.1025
+P1048,14-04-2026,Surat,39,Female,Typhoid,"Fever, weakness, stomach pain",Low,Yes,214,23,50,89,297,Neutral,0.0,0.0
+P1049,16-03-2026,Lucknow,49,Female,Asthma,"Cough, wheezing, chest tightness",Low,Yes,164,38,45,107,209,Negative,0.0,0.0
+P1050,25-01-2026,Lucknow,1,Female,Malaria,"Fever, chills, sweating",Medium,No,161,23,73,167,4635,Negative,0.0,0.0
+P1051,11-06-2026,Bangalore,14,Male,COVID-19,"Fever, cough, breathing difficulty",Medium,No,184,41,72,24,3764,Neutral,12.9716,77.5946
+P1052,15-04-2026,Patna,77,Male,Malaria,"Fever, chills, sweating",Medium,No,244,18,39,151,1023,Negative,0.0,0.0
+P1053,24-05-2026,Chennai,18,Female,Malaria,"Fever, chills, sweating",Medium,Yes,71,22,75,138,1913,Positive,13.0827,80.2707
+P1054,31-03-2026,Hyderabad,42,Male,COVID-19,"Fever, cough, breathing difficulty",Low,Yes,189,38,82,195,4688,Negative,17.385,78.4867
+P1055,11-02-2026,Indore,86,Female,Flu,"Fever, cough, headache",Low,No,198,36,75,57,1492,Neutral,0.0,0.0
+P1056,30-04-2026,Delhi,74,Male,Flu,"Fever, cough, headache",Low,Yes,82,37,76,124,2783,Negative,28.7041,77.1025
+P1057,06-01-2026,Ahmedabad,73,Female,COVID-19,"Fever, cough, breathing difficulty",Low,No,267,38,33,78,4563,Neutral,23.0225,72.5714
+P1058,08-06-2026,Bangalore,46,Female,Typhoid,"Fever, weakness, stomach pain",Low,Yes,155,35,89,57,642,Negative,12.9716,77.5946
+P1059,04-04-2026,Kolkata,77,Female,Malaria,"Fever, chills, sweating",Low,No,196,33,59,40,493,Neutral,22.5726,88.3639
+P1060,15-05-2026,Ahmedabad,27,Male,Asthma,"Cough, wheezing, chest tightness",Low,No,163,23,38,187,3098,Positive,23.0225,72.5714
+P1061,16-04-2026,Chennai,22,Female,Dengue,"Fever, body pain, rash",Low,Yes,252,20,64,134,1395,Negative,13.0827,80.2707
+P1062,06-03-2026,Bangalore,68,Female,Typhoid,"Fever, weakness, stomach pain",High,Yes,253,24,58,3,1054,Negative,12.9716,77.5946
+P1063,24-06-2026,Bangalore,73,Male,COVID-19,"Fever, cough, breathing difficulty",Medium,No,192,31,77,18,1179,Negative,12.9716,77.5946
+P1064,03-06-2026,Delhi,31,Male,COVID-19,"Fever, cough, breathing difficulty",Medium,No,117,34,79,104,584,Neutral,28.7041,77.1025
+P1065,15-01-2026,Jaipur,73,Female,Dengue,"Fever, body pain, rash",Medium,No,269,22,64,4,2566,Negative,0.0,0.0
+P1066,02-02-2026,Jaipur,7,Male,Asthma,"Cough, wheezing, chest tightness",Medium,No,246,26,62,153,3887,Neutral,0.0,0.0
+P1067,15-02-2026,Bhopal,57,Female,COVID-19,"Fever, cough, breathing difficulty",Low,No,209,22,46,107,521,Positive,0.0,0.0
+P1068,14-03-2026,Delhi,30,Male,Typhoid,"Fever, weakness, stomach pain",Low,Yes,263,41,43,169,971,Positive,28.7041,77.1025
+P1069,20-01-2026,Jaipur,67,Male,Asthma,"Cough, wheezing, chest tightness",Low,No,241,34,83,192,960,Positive,0.0,0.0
+P1070,01-06-2026,Mumbai,52,Female,Asthma,"Cough, wheezing, chest tightness",Low,No,156,30,57,67,700,Neutral,19.076,72.8777
+P1071,31-03-2026,Indore,68,Male,Dengue,"Fever, body pain, rash",Low,No,163,24,48,140,4786,Neutral,0.0,0.0
+P1072,19-01-2026,Jaipur,1,Male,Typhoid,"Fever, weakness, stomach pain",Low,Yes,87,36,42,41,3945,Positive,0.0,0.0
+P1073,09-04-2026,Mumbai,15,Male,Malaria,"Fever, chills, sweating",Medium,Yes,196,35,64,185,1064,Neutral,19.076,72.8777
+P1074,12-03-2026,Surat,68,Female,Typhoid,"Fever, weakness, stomach pain",Low,Yes,121,36,67,136,1761,Neutral,0.0,0.0
+P1075,27-05-2026,Surat,67,Female,Malaria,"Fever, chills, sweating",Medium,No,132,39,93,161,3924,Positive,0.0,0.0
+P1076,27-01-2026,Kolkata,87,Male,Flu,"Fever, cough, headache",Low,No,84,20,78,166,382,Negative,22.5726,88.3639
+P1077,12-05-2026,Surat,17,Female,Flu,"Fever, cough, headache",Medium,No,174,34,38,80,2982,Negative,0.0,0.0
+P1078,20-02-2026,Bangalore,37,Female,Malaria,"Fever, chills, sweating",Low,Yes,139,31,87,148,828,Neutral,12.9716,77.5946
+P1079,06-01-2026,Jaipur,32,Male,Asthma,"Cough, wheezing, chest tightness",Low,No,105,18,40,171,1368,Positive,0.0,0.0
+P1080,02-06-2026,Indore,54,Male,Asthma,"Cough, wheezing, chest tightness",Medium,No,239,18,47,186,2475,Negative,0.0,0.0
+P1081,14-01-2026,Patna,9,Female,COVID-19,"Fever, cough, breathing difficulty",Medium,Yes,295,20,65,175,2129,Negative,0.0,0.0
+P1082,14-03-2026,Chennai,36,Female,Typhoid,"Fever, weakness, stomach pain",Medium,Yes,143,18,60,11,376,Positive,13.0827,80.2707
+P1083,23-06-2026,Pune,28,Male,Typhoid,"Fever, weakness, stomach pain",Low,Yes,148,41,77,154,1743,Negative,18.5204,73.8567
+P1084,27-05-2026,Bangalore,21,Male,Asthma,"Cough, wheezing, chest tightness",Low,Yes,186,34,68,163,1903,Negative,12.9716,77.5946
+P1085,22-06-2026,Mumbai,83,Female,Flu,"Fever, cough, headache",Low,No,282,40,39,51,4322,Positive,19.076,72.8777
+P1086,21-06-2026,Nagpur,56,Male,Typhoid,"Fever, weakness, stomach pain",Low,Yes,232,31,35,135,3979,Negative,0.0,0.0
+P1087,30-04-2026,Chennai,68,Male,Asthma,"Cough, wheezing, chest tightness",Low,Yes,250,22,67,139,1468,Negative,13.0827,80.2707
+P1088,30-03-2026,Jaipur,23,Male,Typhoid,"Fever, weakness, stomach pain",Low,Yes,83,34,41,90,2335,Positive,0.0,0.0
+P1089,12-05-2026,Indore,61,Male,Asthma,"Cough, wheezing, chest tightness",Medium,Yes,196,30,94,117,3183,Positive,0.0,0.0
+P1090,21-01-2026,Pune,2,Male,Typhoid,"Fever, weakness, stomach pain",Low,Yes,118,35,31,162,4258,Neutral,18.5204,73.8567
+P1091,20-03-2026,Patna,11,Female,Flu,"Fever, cough, headache",Medium,Yes,221,35,43,133,3805,Negative,0.0,0.0
+P1092,10-02-2026,Kolkata,4,Male,Asthma,"Cough, wheezing, chest tightness",Low,Yes,281,27,61,16,2620,Neutral,22.5726,88.3639
+P1093,25-02-2026,Hyderabad,79,Male,COVID-19,"Fever, cough, breathing difficulty",Low,No,143,23,52,62,2202,Negative,17.385,78.4867
+P1094,22-03-2026,Chennai,79,Female,Typhoid,"Fever, weakness, stomach pain",Medium,No,100,23,71,53,1295,Negative,13.0827,80.2707
+P1095,20-06-2026,Bangalore,30,Male,Asthma,"Cough, wheezing, chest tightness",Medium,Yes,155,35,84,114,2189,Positive,12.9716,77.5946
+P1096,29-04-2026,Bangalore,81,Female,COVID-19,"Fever, cough, breathing difficulty",Low,No,122,23,50,180,4909,Negative,12.9716,77.5946
+P1097,30-04-2026,Mumbai,62,Female,Malaria,"Fever, chills, sweating",Medium,Yes,91,20,47,179,2689,Positive,19.076,72.8777
+P1098,26-05-2026,Bhopal,2,Male,Asthma,"Cough, wheezing, chest tightness",High,Yes,181,27,53,28,1566,Neutral,0.0,0.0
+P1099,25-01-2026,Lucknow,61,Female,Typhoid,"Fever, weakness, stomach pain",Medium,Yes,74,32,84,160,3348,Positive,0.0,0.0
+P1100,28-03-2026,Kolkata,5,Female,Asthma,"Cough, wheezing, chest tightness",Low,Yes,140,36,71,189,4384,Neutral,22.5726,88.3639
+P1101,16-06-2026,Nagpur,9,Male,Flu,"Fever, cough, headache",High,Yes,149,30,87,109,1994,Positive,0.0,0.0
+P1102,10-02-2026,Delhi,62,Male,Flu,"Fever, cough, headache",Low,Yes,146,24,62,85,4133,Positive,28.7041,77.1025
+P1103,04-06-2026,Pune,75,Female,Typhoid,"Fever, weakness, stomach pain",High,Yes,121,40,42,130,2284,Negative,18.5204,73.8567
+P1104,23-06-2026,Kolkata,26,Male,COVID-19,"Fever, cough, breathing difficulty",Medium,Yes,224,30,56,36,4602,Positive,22.5726,88.3639
+P1105,06-06-2026,Pune,33,Male,Dengue,"Fever, body pain, rash",Low,Yes,129,28,61,151,3288,Positive,18.5204,73.8567
+P1106,25-05-2026,Delhi,67,Female,Asthma,"Cough, wheezing, chest tightness",Medium,Yes,172,39,86,121,4050,Positive,28.7041,77.1025
+P1107,21-03-2026,Kolkata,89,Female,COVID-19,"Fever, cough, breathing difficulty",High,Yes,167,32,62,61,3107,Neutral,22.5726,88.3639
+P1108,03-02-2026,Ahmedabad,68,Male,Typhoid,"Fever, weakness, stomach pain",Low,No,145,41,42,140,3933,Negative,23.0225,72.5714
+P1109,06-01-2026,Kolkata,17,Female,COVID-19,"Fever, cough, breathing difficulty",High,Yes,70,23,73,195,3773,Neutral,22.5726,88.3639
+P1110,24-01-2026,Nagpur,60,Female,Typhoid,"Fever, weakness, stomach pain",Medium,Yes,88,38,80,4,4245,Neutral,0.0,0.0
+P1111,13-03-2026,Chennai,86,Male,COVID-19,"Fever, cough, breathing difficulty",Low,No,145,30,58,148,4530,Positive,13.0827,80.2707
+P1112,24-04-2026,Bhopal,19,Female,Malaria,"Fever, chills, sweating",Low,Yes,275,20,47,108,2876,Neutral,0.0,0.0
+P1113,15-02-2026,Bhopal,42,Female,COVID-19,"Fever, cough, breathing difficulty",High,Yes,92,20,44,154,1380,Positive,0.0,0.0
+P1114,01-05-2026,Hyderabad,37,Male,Typhoid,"Fever, weakness, stomach pain",Low,Yes,299,26,61,92,3642,Neutral,17.385,78.4867
+P1115,01-02-2026,Bhopal,79,Male,Typhoid,"Fever, weakness, stomach pain",Low,No,202,26,40,118,2731,Neutral,0.0,0.0
+P1116,18-02-2026,Mumbai,33,Female,Malaria,"Fever, chills, sweating",Low,Yes,252,24,93,112,743,Negative,19.076,72.8777
+P1117,11-03-2026,Nagpur,29,Female,Asthma,"Cough, wheezing, chest tightness",Low,No,55,32,77,27,1747,Neutral,0.0,0.0
+P1118,07-01-2026,Kolkata,7,Female,Typhoid,"Fever, weakness, stomach pain",Low,Yes,249,22,54,81,685,Neutral,22.5726,88.3639
+P1119,22-02-2026,Delhi,68,Male,Dengue,"Fever, body pain, rash",Low,Yes,68,36,73,178,2920,Neutral,28.7041,77.1025
+P1120,05-02-2026,Chennai,18,Male,Typhoid,"Fever, weakness, stomach pain",Medium,No,180,23,77,39,4433,Negative,13.0827,80.2707
+P1121,25-06-2026,Lucknow,4,Male,Flu,"Fever, cough, headache",Low,Yes,202,31,49,97,658,Neutral,0.0,0.0
+P1122,19-06-2026,Bangalore,72,Male,Malaria,"Fever, chills, sweating",Medium,Yes,150,21,77,63,818,Negative,12.9716,77.5946
+P1123,22-06-2026,Hyderabad,17,Female,Malaria,"Fever, chills, sweating",High,Yes,154,25,55,134,2800,Neutral,17.385,78.4867
+P1124,29-06-2026,Jaipur,59,Male,Dengue,"Fever, body pain, rash",Low,No,284,21,81,158,4771,Negative,0.0,0.0
+P1125,17-03-2026,Bangalore,79,Female,Dengue,"Fever, body pain, rash",Low,Yes,235,21,57,151,2304,Positive,12.9716,77.5946
+P1126,03-05-2026,Pune,76,Female,Dengue,"Fever, body pain, rash",Low,No,202,41,73,42,2648,Positive,18.5204,73.8567
+P1127,10-02-2026,Chennai,69,Female,COVID-19,"Fever, cough, breathing difficulty",Low,No,66,33,75,34,4315,Positive,13.0827,80.2707
+P1128,18-02-2026,Lucknow,69,Male,Flu,"Fever, cough, headache",Low,Yes,60,33,37,185,2118,Positive,0.0,0.0
+P1129,13-02-2026,Hyderabad,16,Female,Malaria,"Fever, chills, sweating",Medium,Yes,213,40,77,186,227,Negative,17.385,78.4867
+P1130,26-03-2026,Pune,76,Male,Dengue,"Fever, body pain, rash",Low,Yes,219,19,49,69,4937,Neutral,18.5204,73.8567
+P1131,13-03-2026,Mumbai,49,Male,Dengue,"Fever, body pain, rash",Low,No,117,21,77,86,1922,Neutral,19.076,72.8777
+P1132,05-06-2026,Surat,21,Female,COVID-19,"Fever, cough, breathing difficulty",Low,No,181,32,79,40,3977,Neutral,0.0,0.0
+P1133,27-03-2026,Bhopal,75,Male,COVID-19,"Fever, cough, breathing difficulty",Low,Yes,252,21,92,81,3598,Negative,0.0,0.0
+P1134,25-02-2026,Hyderabad,81,Male,Dengue,"Fever, body pain, rash",Medium,No,83,40,88,65,2850,Neutral,17.385,78.4867
+P1135,14-06-2026,Surat,87,Female,Malaria,"Fever, chills, sweating",Low,Yes,99,28,30,130,3969,Negative,0.0,0.0
+P1136,21-06-2026,Lucknow,76,Male,Dengue,"Fever, body pain, rash",Medium,No,274,25,86,35,2857,Positive,0.0,0.0
+P1137,14-06-2026,Jaipur,25,Female,Flu,"Fever, cough, headache",Low,Yes,97,22,51,45,1989,Negative,0.0,0.0
+P1138,22-03-2026,Delhi,38,Female,Flu,"Fever, cough, headache",Medium,Yes,287,38,86,168,2757,Negative,28.7041,77.1025
+P1139,10-06-2026,Chennai,6,Female,Asthma,"Cough, wheezing, chest tightness",Low,Yes,124,30,54,94,2429,Neutral,13.0827,80.2707
+P1140,17-06-2026,Ahmedabad,55,Male,Dengue,"Fever, body pain, rash",Low,No,103,29,84,103,3502,Negative,23.0225,72.5714
+P1141,30-04-2026,Pune,67,Female,Asthma,"Cough, wheezing, chest tightness",Low,Yes,59,35,40,44,3309,Negative,18.5204,73.8567
+P1142,10-03-2026,Pune,32,Male,Dengue,"Fever, body pain, rash",Medium,Yes,70,22,60,7,214,Negative,18.5204,73.8567
+P1143,14-03-2026,Bhopal,45,Male,Malaria,"Fever, chills, sweating",Low,Yes,255,33,53,134,2523,Neutral,0.0,0.0
+P1144,29-03-2026,Delhi,68,Male,Asthma,"Cough, wheezing, chest tightness",Low,No,124,21,49,174,4836,Negative,28.7041,77.1025
+P1145,06-02-2026,Kolkata,83,Female,Asthma,"Cough, wheezing, chest tightness",Low,Yes,151,35,55,102,2814,Positive,22.5726,88.3639
+P1146,26-06-2026,Surat,69,Male,COVID-19,"Fever, cough, breathing difficulty",Low,No,149,27,34,152,728,Neutral,0.0,0.0
+P1147,26-04-2026,Kolkata,49,Female,Dengue,"Fever, body pain, rash",Low,Yes,244,22,36,10,4003,Positive,22.5726,88.3639
+P1148,14-01-2026,Bangalore,27,Male,Asthma,"Cough, wheezing, chest tightness",Medium,Yes,103,38,30,101,3456,Negative,12.9716,77.5946
+P1149,18-03-2026,Pune,36,Female,Typhoid,"Fever, weakness, stomach pain",Low,No,235,22,77,127,3958,Negative,18.5204,73.8567
+P1150,21-04-2026,Lucknow,89,Male,Dengue,"Fever, body pain, rash",Low,No,128,36,35,83,1415,Negative,0.0,0.0
+P1151,26-05-2026,Hyderabad,36,Female,Flu,"Fever, cough, headache",Low,No,118,33,33,133,775,Neutral,17.385,78.4867
+P1152,22-05-2026,Pune,14,Male,Asthma,"Cough, wheezing, chest tightness",Low,No,124,20,53,149,1017,Negative,18.5204,73.8567
+P1153,08-01-2026,Surat,49,Female,COVID-19,"Fever, cough, breathing difficulty",High,Yes,66,28,84,116,4202,Positive,0.0,0.0
+P1154,30-03-2026,Lucknow,52,Female,Flu,"Fever, cough, headache",Low,No,267,34,64,190,1282,Positive,0.0,0.0
+P1155,01-02-2026,Nagpur,30,Male,Asthma,"Cough, wheezing, chest tightness",Medium,No,187,40,58,154,1682,Negative,0.0,0.0
+P1156,11-05-2026,Pune,83,Male,Flu,"Fever, cough, headache",Medium,Yes,125,27,63,60,1570,Neutral,18.5204,73.8567
+P1157,03-01-2026,Ahmedabad,12,Female,Typhoid,"Fever, weakness, stomach pain",Low,No,115,24,92,64,1613,Positive,23.0225,72.5714
+P1158,08-02-2026,Jaipur,4,Female,Flu,"Fever, cough, headache",Low,Yes,234,31,59,99,4926,Negative,0.0,0.0
+P1159,17-03-2026,Kolkata,90,Female,Asthma,"Cough, wheezing, chest tightness",High,Yes,65,40,34,55,2507,Neutral,22.5726,88.3639
+P1160,03-01-2026,Hyderabad,74,Female,Flu,"Fever, cough, headache",Medium,Yes,143,24,73,84,995,Positive,17.385,78.4867
+P1161,30-03-2026,Chennai,58,Male,Malaria,"Fever, chills, sweating",Low,No,73,22,34,148,4416,Positive,13.0827,80.2707
+P1162,25-01-2026,Indore,54,Female,Typhoid,"Fever, weakness, stomach pain",Low,Yes,281,18,77,34,3368,Negative,0.0,0.0
+P1163,18-05-2026,Chennai,42,Male,Flu,"Fever, cough, headache",Medium,No,284,20,47,96,521,Positive,13.0827,80.2707
+P1164,10-04-2026,Jaipur,33,Male,Dengue,"Fever, body pain, rash",Medium,No,178,23,39,135,4453,Negative,0.0,0.0
+P1165,01-02-2026,Mumbai,38,Male,Asthma,"Cough, wheezing, chest tightness",Low,Yes,238,31,39,26,2896,Negative,19.076,72.8777
+P1166,28-02-2026,Pune,81,Female,Asthma,"Cough, wheezing, chest tightness",Low,Yes,153,18,78,26,1713,Positive,18.5204,73.8567
+P1167,18-03-2026,Mumbai,9,Male,Typhoid,"Fever, weakness, stomach pain",High,Yes,231,28,47,191,4330,Positive,19.076,72.8777
+P1168,04-04-2026,Indore,51,Female,COVID-19,"Fever, cough, breathing difficulty",High,Yes,133,40,47,73,1948,Neutral,0.0,0.0
+P1169,14-04-2026,Mumbai,19,Female,Asthma,"Cough, wheezing, chest tightness",Medium,No,127,23,90,140,3807,Neutral,19.076,72.8777
+P1170,01-02-2026,Bangalore,14,Male,Malaria,"Fever, chills, sweating",Low,Yes,137,36,47,164,3579,Negative,12.9716,77.5946
+P1171,21-01-2026,Pune,1,Male,Typhoid,"Fever, weakness, stomach pain",Low,No,88,28,86,92,2698,Positive,18.5204,73.8567
+P1172,08-05-2026,Indore,22,Female,Malaria,"Fever, chills, sweating",High,Yes,196,34,61,75,1329,Negative,0.0,0.0
+P1173,13-01-2026,Hyderabad,50,Male,Typhoid,"Fever, weakness, stomach pain",Low,No,179,31,87,145,3528,Positive,17.385,78.4867
+P1174,27-02-2026,Chennai,57,Male,Dengue,"Fever, body pain, rash",Low,Yes,122,18,59,55,2760,Negative,13.0827,80.2707
+P1175,09-06-2026,Bangalore,26,Female,Typhoid,"Fever, weakness, stomach pain",Low,Yes,197,40,69,93,4230,Neutral,12.9716,77.5946
+P1176,25-04-2026,Pune,44,Female,Dengue,"Fever, body pain, rash",Low,Yes,79,19,83,5,3763,Positive,18.5204,73.8567
+P1177,22-06-2026,Bhopal,15,Female,Asthma,"Cough, wheezing, chest tightness",Low,Yes,265,33,72,29,2779,Negative,0.0,0.0
+P1178,26-01-2026,Jaipur,76,Female,Asthma,"Cough, wheezing, chest tightness",High,Yes,68,41,35,62,1912,Neutral,0.0,0.0
+P1179,27-01-2026,Jaipur,23,Female,Asthma,"Cough, wheezing, chest tightness",Low,Yes,191,22,58,113,1272,Neutral,0.0,0.0
+P1180,06-03-2026,Lucknow,74,Male,Flu,"Fever, cough, headache",Low,No,275,39,60,166,1912,Neutral,0.0,0.0
+P1181,14-01-2026,Bhopal,80,Female,Asthma,"Cough, wheezing, chest tightness",Low,Yes,67,40,70,180,2222,Negative,0.0,0.0
+P1182,10-06-2026,Bangalore,86,Male,Asthma,"Cough, wheezing, chest tightness",Low,No,284,32,47,131,871,Neutral,12.9716,77.5946
+P1183,26-05-2026,Hyderabad,64,Male,Asthma,"Cough, wheezing, chest tightness",Medium,Yes,239,36,92,69,2379,Positive,17.385,78.4867
+P1184,16-05-2026,Pune,58,Male,Malaria,"Fever, chills, sweating",High,Yes,292,36,78,155,3046,Neutral,18.5204,73.8567
+P1185,15-03-2026,Surat,12,Male,COVID-19,"Fever, cough, breathing difficulty",Low,No,248,35,71,56,3914,Positive,0.0,0.0
+P1186,11-01-2026,Bangalore,83,Male,Typhoid,"Fever, weakness, stomach pain",Low,No,91,34,65,176,4126,Positive,12.9716,77.5946
+P1187,12-01-2026,Ahmedabad,61,Male,COVID-19,"Fever, cough, breathing difficulty",Medium,No,147,39,54,32,3179,Neutral,23.0225,72.5714
+P1188,18-04-2026,Delhi,11,Female,COVID-19,"Fever, cough, breathing difficulty",Low,Yes,115,23,63,46,2617,Positive,28.7041,77.1025
+P1189,05-01-2026,Lucknow,11,Male,Flu,"Fever, cough, headache",Low,Yes,258,31,70,162,4667,Negative,0.0,0.0
+P1190,06-04-2026,Patna,38,Female,Typhoid,"Fever, weakness, stomach pain",Low,Yes,118,20,78,103,318,Negative,0.0,0.0
+P1191,15-02-2026,Ahmedabad,73,Male,Typhoid,"Fever, weakness, stomach pain",Low,Yes,185,32,74,129,728,Positive,23.0225,72.5714
+P1192,09-02-2026,Kolkata,77,Male,COVID-19,"Fever, cough, breathing difficulty",Low,Yes,139,40,47,109,1263,Neutral,22.5726,88.3639
+P1193,07-02-2026,Surat,69,Male,Flu,"Fever, cough, headache",High,Yes,109,41,47,47,353,Neutral,0.0,0.0
+P1194,15-06-2026,Ahmedabad,82,Male,Dengue,"Fever, body pain, rash",High,Yes,118,24,56,171,4637,Negative,23.0225,72.5714
+P1195,23-03-2026,Jaipur,7,Female,COVID-19,"Fever, cough, breathing difficulty",Medium,Yes,185,18,40,185,1242,Positive,0.0,0.0
+P1196,26-05-2026,Bangalore,19,Male,Typhoid,"Fever, weakness, stomach pain",Low,Yes,197,26,59,172,2906,Positive,12.9716,77.5946
+P1197,02-02-2026,Nagpur,37,Male,COVID-19,"Fever, cough, breathing difficulty",Low,Yes,58,30,55,10,3653,Neutral,0.0,0.0
+P1198,23-02-2026,Delhi,2,Female,Typhoid,"Fever, weakness, stomach pain",Medium,Yes,123,35,56,77,2866,Neutral,28.7041,77.1025
+P1199,05-02-2026,Bangalore,46,Female,Dengue,"Fever, body pain, rash",Medium,No,111,23,63,111,618,Neutral,12.9716,77.5946
+P1200,22-04-2026,Indore,73,Male,Asthma,"Cough, wheezing, chest tightness",Medium,No,260,22,90,107,4407,Neutral,0.0,0.0
+P1201,02-03-2026,Ahmedabad,63,Female,Dengue,"Fever, body pain, rash",Medium,No,66,24,80,60,182,Positive,23.0225,72.5714
+P1202,13-05-2026,Nagpur,12,Male,Asthma,"Cough, wheezing, chest tightness",High,Yes,258,38,66,119,4143,Negative,0.0,0.0
+P1203,19-02-2026,Patna,27,Female,COVID-19,"Fever, cough, breathing difficulty",Medium,Yes,148,31,32,57,4620,Negative,0.0,0.0
+P1204,13-02-2026,Indore,22,Male,Malaria,"Fever, chills, sweating",High,Yes,151,18,45,163,4946,Neutral,0.0,0.0
+P1205,21-03-2026,Kolkata,42,Female,Dengue,"Fever, body pain, rash",High,Yes,58,38,61,4,2893,Negative,22.5726,88.3639
+P1206,02-02-2026,Kolkata,80,Male,COVID-19,"Fever, cough, breathing difficulty",Low,No,286,34,79,88,1004,Negative,22.5726,88.3639
+P1207,11-02-2026,Pune,68,Male,Dengue,"Fever, body pain, rash",Medium,Yes,285,35,30,155,225,Neutral,18.5204,73.8567
+P1208,01-05-2026,Bhopal,42,Female,Dengue,"Fever, body pain, rash",Medium,Yes,218,19,53,170,1419,Neutral,0.0,0.0
+P1209,12-03-2026,Indore,7,Male,Typhoid,"Fever, weakness, stomach pain",Medium,No,224,31,55,187,2574,Negative,0.0,0.0
+P1210,23-02-2026,Bangalore,54,Male,COVID-19,"Fever, cough, breathing difficulty",Medium,No,51,29,83,6,4984,Positive,12.9716,77.5946
+P1211,02-06-2026,Ahmedabad,15,Female,Dengue,"Fever, body pain, rash",Medium,Yes,264,40,62,114,4122,Positive,23.0225,72.5714
+P1212,02-04-2026,Nagpur,89,Male,Typhoid,"Fever, weakness, stomach pain",Low,No,100,32,70,12,344,Negative,0.0,0.0
+P1213,09-01-2026,Patna,32,Male,Malaria,"Fever, chills, sweating",Low,Yes,83,41,75,40,2437,Positive,0.0,0.0
+P1214,11-03-2026,Nagpur,24,Female,Flu,"Fever, cough, headache",Medium,Yes,150,31,78,67,3673,Positive,0.0,0.0
+P1215,20-05-2026,Surat,67,Female,Dengue,"Fever, body pain, rash",Medium,No,281,41,48,121,2755,Positive,0.0,0.0
+P1216,02-01-2026,Chennai,73,Male,Dengue,"Fever, body pain, rash",Medium,Yes,277,41,44,160,1250,Positive,13.0827,80.2707
+P1217,11-01-2026,Patna,48,Male,Typhoid,"Fever, weakness, stomach pain",Low,Yes,284,35,47,19,3356,Positive,0.0,0.0
+P1218,28-02-2026,Bangalore,73,Male,Dengue,"Fever, body pain, rash",Low,No,177,32,70,198,4070,Negative,12.9716,77.5946
+P1219,28-05-2026,Pune,9,Male,Asthma,"Cough, wheezing, chest tightness",Medium,Yes,191,28,73,132,647,Positive,18.5204,73.8567
+P1220,05-06-2026,Patna,8,Male,COVID-19,"Fever, cough, breathing difficulty",Medium,Yes,176,35,83,186,4477,Neutral,0.0,0.0
+P1221,18-01-2026,Mumbai,60,Female,Dengue,"Fever, body pain, rash",Low,Yes,252,28,94,94,1010,Negative,19.076,72.8777
+P1222,15-06-2026,Patna,8,Male,Dengue,"Fever, body pain, rash",Medium,No,280,37,86,148,877,Neutral,0.0,0.0
+P1223,23-06-2026,Pune,39,Male,Malaria,"Fever, chills, sweating",Low,Yes,204,37,63,71,183,Positive,18.5204,73.8567
+P1224,22-04-2026,Lucknow,6,Female,Typhoid,"Fever, weakness, stomach pain",Medium,No,207,31,47,53,4397,Neutral,0.0,0.0
+P1225,01-02-2026,Bhopal,46,Female,Flu,"Fever, cough, headache",Medium,Yes,261,18,33,103,1019,Negative,0.0,0.0
+P1226,01-04-2026,Patna,65,Male,COVID-19,"Fever, cough, breathing difficulty",Low,Yes,211,18,31,36,2614,Positive,0.0,0.0
+P1227,11-05-2026,Kolkata,40,Male,Typhoid,"Fever, weakness, stomach pain",Low,Yes,258,24,79,157,520,Negative,22.5726,88.3639
+P1228,12-05-2026,Surat,59,Female,COVID-19,"Fever, cough, breathing difficulty",Low,Yes,171,24,89,82,547,Positive,0.0,0.0
+P1229,18-03-2026,Hyderabad,33,Male,Flu,"Fever, cough, headache",Low,Yes,78,28,57,71,4260,Neutral,17.385,78.4867
+P1230,22-04-2026,Delhi,43,Female,Asthma,"Cough, wheezing, chest tightness",Low,No,52,38,38,36,3549,Negative,28.7041,77.1025
+P1231,27-01-2026,Mumbai,1,Male,Malaria,"Fever, chills, sweating",Low,No,117,19,33,52,4141,Negative,19.076,72.8777
+P1232,01-05-2026,Nagpur,31,Male,Dengue,"Fever, body pain, rash",Low,No,164,35,33,95,2641,Positive,0.0,0.0
+P1233,08-04-2026,Bangalore,52,Male,Typhoid,"Fever, weakness, stomach pain",Medium,Yes,130,27,81,119,4158,Neutral,12.9716,77.5946
+P1234,16-01-2026,Kolkata,74,Male,COVID-19,"Fever, cough, breathing difficulty",Medium,No,92,28,86,157,4369,Positive,22.5726,88.3639
+P1235,07-04-2026,Delhi,55,Female,Asthma,"Cough, wheezing, chest tightness",Medium,No,222,19,36,62,3027,Negative,28.7041,77.1025
+P1236,18-06-2026,Ahmedabad,24,Female,Dengue,"Fever, body pain, rash",Medium,Yes,83,29,78,156,4567,Positive,23.0225,72.5714
+P1237,26-02-2026,Ahmedabad,24,Male,Asthma,"Cough, wheezing, chest tightness",Low,Yes,231,38,88,178,3109,Negative,23.0225,72.5714
+P1238,05-05-2026,Ahmedabad,5,Female,Flu,"Fever, cough, headache",Low,No,151,30,48,155,2354,Negative,23.0225,72.5714
+P1239,09-06-2026,Jaipur,33,Male,Typhoid,"Fever, weakness, stomach pain",Low,Yes,154,18,33,197,3848,Negative,0.0,0.0
+P1240,14-04-2026,Jaipur,81,Male,Malaria,"Fever, chills, sweating",Low,No,113,21,45,48,1241,Neutral,0.0,0.0
+P1241,26-05-2026,Delhi,54,Male,Typhoid,"Fever, weakness, stomach pain",High,Yes,166,31,91,126,2420,Negative,28.7041,77.1025
+P1242,20-06-2026,Ahmedabad,15,Male,Malaria,"Fever, chills, sweating",Medium,Yes,244,23,39,69,4983,Negative,23.0225,72.5714
+P1243,13-02-2026,Bhopal,49,Male,Dengue,"Fever, body pain, rash",Medium,No,276,18,49,108,2503,Negative,0.0,0.0
+P1244,01-06-2026,Mumbai,28,Female,Asthma,"Cough, wheezing, chest tightness",Low,Yes,237,30,59,128,973,Negative,19.076,72.8777
+P1245,27-04-2026,Lucknow,38,Male,Flu,"Fever, cough, headache",High,Yes,69,34,66,171,1146,Positive,0.0,0.0
+P1246,18-05-2026,Nagpur,13,Female,COVID-19,"Fever, cough, breathing difficulty",Medium,Yes,210,29,41,51,4240,Neutral,0.0,0.0
+P1247,15-04-2026,Surat,3,Female,Flu,"Fever, cough, headache",Medium,Yes,294,36,62,52,2192,Neutral,0.0,0.0
+P1248,12-04-2026,Kolkata,86,Female,COVID-19,"Fever, cough, breathing difficulty",Low,No,258,39,66,162,4956,Neutral,22.5726,88.3639
+P1249,11-02-2026,Bangalore,23,Female,Asthma,"Cough, wheezing, chest tightness",High,Yes,115,22,30,97,2951,Neutral,12.9716,77.5946
+P1250,04-05-2026,Chennai,68,Female,Flu,"Fever, cough, headache",Low,No,55,20,53,175,1712,Positive,13.0827,80.2707
+P1251,17-02-2026,Bhopal,41,Female,COVID-19,"Fever, cough, breathing difficulty",Low,No,67,23,52,16,4091,Positive,0.0,0.0
+P1252,13-01-2026,Ahmedabad,87,Female,COVID-19,"Fever, cough, breathing difficulty",High,Yes,277,41,51,43,2974,Positive,23.0225,72.5714
+P1253,11-01-2026,Mumbai,36,Female,Dengue,"Fever, body pain, rash",Medium,Yes,116,36,84,189,3510,Neutral,19.076,72.8777
+P1254,13-02-2026,Delhi,72,Female,Typhoid,"Fever, weakness, stomach pain",Medium,Yes,114,21,47,74,2563,Neutral,28.7041,77.1025
+P1255,15-02-2026,Indore,10,Female,Malaria,"Fever, chills, sweating",Medium,Yes,131,23,81,81,488,Positive,0.0,0.0
+P1256,28-03-2026,Pune,34,Male,Asthma,"Cough, wheezing, chest tightness",Low,No,283,38,33,124,768,Negative,18.5204,73.8567
+P1257,29-06-2026,Nagpur,8,Female,Flu,"Fever, cough, headache",Medium,No,250,21,66,79,4759,Positive,0.0,0.0
+P1258,02-04-2026,Chennai,87,Female,Malaria,"Fever, chills, sweating",Low,No,128,33,31,43,3211,Positive,13.0827,80.2707
+P1259,21-04-2026,Lucknow,90,Male,COVID-19,"Fever, cough, breathing difficulty",Low,No,201,30,81,133,1770,Positive,0.0,0.0
+P1260,13-04-2026,Nagpur,70,Female,Typhoid,"Fever, weakness, stomach pain",Medium,Yes,184,24,58,140,2197,Positive,0.0,0.0
+P1261,15-01-2026,Kolkata,12,Female,Asthma,"Cough, wheezing, chest tightness",Low,Yes,295,20,81,39,4795,Positive,22.5726,88.3639
+P1262,09-03-2026,Hyderabad,49,Female,Flu,"Fever, cough, headache",Medium,No,283,21,75,132,3447,Negative,17.385,78.4867
+P1263,05-06-2026,Surat,24,Male,Malaria,"Fever, chills, sweating",Low,Yes,69,21,31,114,4002,Neutral,0.0,0.0
+P1264,07-04-2026,Indore,17,Female,Flu,"Fever, cough, headache",Medium,Yes,246,19,36,148,3710,Positive,0.0,0.0
+P1265,10-02-2026,Kolkata,59,Male,COVID-19,"Fever, cough, breathing difficulty",High,Yes,279,37,41,69,544,Negative,22.5726,88.3639
+P1266,28-02-2026,Kolkata,57,Female,Flu,"Fever, cough, headache",Low,Yes,124,20,56,57,1487,Neutral,22.5726,88.3639
+P1267,20-02-2026,Surat,59,Male,Malaria,"Fever, chills, sweating",Low,No,143,36,83,86,3017,Positive,0.0,0.0
+P1268,22-01-2026,Ahmedabad,67,Male,Malaria,"Fever, chills, sweating",Low,Yes,76,30,84,162,3607,Positive,23.0225,72.5714
+P1269,23-03-2026,Kolkata,47,Male,Typhoid,"Fever, weakness, stomach pain",Low,No,143,35,76,135,1362,Negative,22.5726,88.3639
+P1270,07-01-2026,Chennai,5,Male,Typhoid,"Fever, weakness, stomach pain",Low,No,278,38,38,42,1526,Negative,13.0827,80.2707
+P1271,20-05-2026,Ahmedabad,48,Female,Dengue,"Fever, body pain, rash",Low,Yes,292,27,44,199,3930,Neutral,23.0225,72.5714
+P1272,09-04-2026,Mumbai,16,Male,Typhoid,"Fever, weakness, stomach pain",Low,Yes,200,37,30,193,197,Positive,19.076,72.8777
+P1273,22-03-2026,Surat,89,Male,Asthma,"Cough, wheezing, chest tightness",High,Yes,134,22,57,55,2157,Negative,0.0,0.0
+P1274,27-05-2026,Kolkata,1,Male,COVID-19,"Fever, cough, breathing difficulty",Medium,Yes,250,31,85,124,4202,Positive,22.5726,88.3639
+P1275,25-02-2026,Pune,71,Female,Malaria,"Fever, chills, sweating",High,Yes,104,28,84,60,3708,Neutral,18.5204,73.8567
+P1276,08-04-2026,Indore,59,Female,Malaria,"Fever, chills, sweating",High,Yes,51,27,37,86,3046,Neutral,0.0,0.0
+P1277,15-06-2026,Indore,13,Male,Asthma,"Cough, wheezing, chest tightness",Medium,Yes,272,25,90,136,596,Neutral,0.0,0.0
+P1278,20-05-2026,Jaipur,1,Male,Flu,"Fever, cough, headache",Medium,No,146,27,93,76,2359,Positive,0.0,0.0
+P1279,15-03-2026,Mumbai,33,Male,Dengue,"Fever, body pain, rash",Medium,Yes,212,25,46,20,2636,Positive,19.076,72.8777
+P1280,19-04-2026,Nagpur,24,Male,Typhoid,"Fever, weakness, stomach pain",Low,Yes,142,26,64,44,2441,Negative,0.0,0.0
+P1281,04-06-2026,Bhopal,66,Male,Dengue,"Fever, body pain, rash",Medium,No,135,39,36,103,4949,Positive,0.0,0.0
+P1282,09-05-2026,Pune,55,Male,Typhoid,"Fever, weakness, stomach pain",Low,No,71,20,91,93,147,Negative,18.5204,73.8567
+P1283,03-05-2026,Chennai,32,Male,Typhoid,"Fever, weakness, stomach pain",Medium,Yes,266,30,84,45,2496,Positive,13.0827,80.2707
+P1284,02-06-2026,Ahmedabad,24,Male,Typhoid,"Fever, weakness, stomach pain",Medium,No,157,35,64,12,1832,Negative,23.0225,72.5714
+P1285,02-06-2026,Bhopal,85,Male,Flu,"Fever, cough, headache",Medium,No,240,27,70,100,2841,Negative,0.0,0.0
+P1286,08-05-2026,Hyderabad,79,Male,COVID-19,"Fever, cough, breathing difficulty",Medium,No,180,33,85,34,859,Negative,17.385,78.4867
+P1287,06-03-2026,Bangalore,84,Female,COVID-19,"Fever, cough, breathing difficulty",Medium,No,293,33,75,122,4848,Positive,12.9716,77.5946
+P1288,20-01-2026,Delhi,67,Male,Malaria,"Fever, chills, sweating",Low,No,132,31,50,22,2807,Neutral,28.7041,77.1025
+P1289,22-02-2026,Chennai,32,Male,COVID-19,"Fever, cough, breathing difficulty",Medium,Yes,241,22,78,59,1500,Neutral,13.0827,80.2707
+P1290,22-01-2026,Bangalore,32,Male,Typhoid,"Fever, weakness, stomach pain",Low,No,107,41,48,74,432,Neutral,12.9716,77.5946
+P1291,10-04-2026,Nagpur,3,Female,COVID-19,"Fever, cough, breathing difficulty",High,Yes,203,25,86,12,3720,Neutral,0.0,0.0
+P1292,19-01-2026,Bhopal,40,Female,Flu,"Fever, cough, headache",Low,Yes,110,41,44,90,2919,Negative,0.0,0.0
+P1293,22-06-2026,Bangalore,71,Male,Flu,"Fever, cough, headache",High,Yes,153,29,94,165,582,Negative,12.9716,77.5946
+P1294,07-04-2026,Ahmedabad,81,Female,Typhoid,"Fever, weakness, stomach pain",Low,Yes,118,35,67,135,2774,Neutral,23.0225,72.5714
+P1295,30-06-2026,Chennai,80,Female,Dengue,"Fever, body pain, rash",Low,Yes,218,23,45,177,1568,Positive,13.0827,80.2707
+P1296,24-06-2026,Bangalore,6,Male,Typhoid,"Fever, weakness, stomach pain",Medium,Yes,101,33,63,72,1243,Positive,12.9716,77.5946
+P1297,11-02-2026,Lucknow,20,Female,Asthma,"Cough, wheezing, chest tightness",Low,No,65,36,91,141,2928,Positive,0.0,0.0
+P1298,07-03-2026,Nagpur,46,Male,Asthma,"Cough, wheezing, chest tightness",Low,Yes,181,25,76,91,995,Negative,0.0,0.0
+P1299,01-04-2026,Indore,37,Female,Asthma,"Cough, wheezing, chest tightness",Low,Yes,244,38,82,144,4544,Positive,0.0,0.0
+P1300,06-01-2026,Patna,3,Male,Typhoid,"Fever, weakness, stomach pain",Low,No,152,31,63,153,3176,Negative,0.0,0.0
+P1301,13-01-2026,Delhi,18,Female,Typhoid,"Fever, weakness, stomach pain",Medium,No,83,37,44,120,3471,Positive,28.7041,77.1025
+P1302,06-02-2026,Mumbai,85,Female,Typhoid,"Fever, weakness, stomach pain",High,Yes,113,41,79,132,969,Negative,19.076,72.8777
+P1303,30-03-2026,Lucknow,4,Male,Typhoid,"Fever, weakness, stomach pain",Low,No,113,34,56,66,4008,Positive,0.0,0.0
+P1304,18-01-2026,Lucknow,89,Male,Flu,"Fever, cough, headache",Medium,Yes,120,40,55,121,2401,Positive,0.0,0.0
+P1305,19-03-2026,Delhi,41,Female,Asthma,"Cough, wheezing, chest tightness",Medium,Yes,70,29,54,113,2803,Neutral,28.7041,77.1025
+P1306,02-04-2026,Patna,87,Male,Typhoid,"Fever, weakness, stomach pain",High,Yes,128,26,44,142,1572,Positive,0.0,0.0
+P1307,24-06-2026,Hyderabad,8,Male,COVID-19,"Fever, cough, breathing difficulty",Low,Yes,277,23,68,94,2820,Neutral,17.385,78.4867
+P1308,10-06-2026,Bhopal,79,Female,COVID-19,"Fever, cough, breathing difficulty",Low,Yes,109,40,76,121,3783,Negative,0.0,0.0
+P1309,15-04-2026,Delhi,72,Male,Typhoid,"Fever, weakness, stomach pain",High,Yes,292,38,75,56,1007,Negative,28.7041,77.1025
+P1310,25-03-2026,Jaipur,45,Male,Asthma,"Cough, wheezing, chest tightness",High,Yes,224,34,49,159,3075,Neutral,0.0,0.0
+P1311,17-05-2026,Delhi,22,Female,Asthma,"Cough, wheezing, chest tightness",Medium,No,201,25,80,192,778,Negative,28.7041,77.1025
+P1312,08-02-2026,Chennai,53,Female,Malaria,"Fever, chills, sweating",Low,No,179,30,62,12,901,Neutral,13.0827,80.2707
+P1313,24-06-2026,Jaipur,60,Female,Dengue,"Fever, body pain, rash",Low,Yes,233,31,89,80,127,Positive,0.0,0.0
+P1314,22-02-2026,Chennai,74,Male,Flu,"Fever, cough, headache",Low,No,128,27,76,26,1813,Negative,13.0827,80.2707
+P1315,23-04-2026,Surat,21,Female,COVID-19,"Fever, cough, breathing difficulty",Medium,Yes,162,39,33,65,3605,Neutral,0.0,0.0
+P1316,16-03-2026,Patna,53,Female,Dengue,"Fever, body pain, rash",Medium,Yes,243,20,80,160,3217,Positive,0.0,0.0
+P1317,06-04-2026,Chennai,79,Female,Asthma,"Cough, wheezing, chest tightness",Medium,No,135,27,49,24,4783,Neutral,13.0827,80.2707
+P1318,10-05-2026,Pune,40,Female,Malaria,"Fever, chills, sweating",Low,Yes,196,35,80,194,3201,Negative,18.5204,73.8567
+P1319,16-02-2026,Pune,79,Female,Typhoid,"Fever, weakness, stomach pain",Low,Yes,53,18,50,183,3094,Neutral,18.5204,73.8567
+P1320,12-06-2026,Delhi,89,Female,Malaria,"Fever, chills, sweating",Low,Yes,296,33,87,157,614,Neutral,28.7041,77.1025
+P1321,02-04-2026,Mumbai,1,Female,Flu,"Fever, cough, headache",Low,No,156,30,79,111,2821,Negative,19.076,72.8777
+P1322,17-04-2026,Kolkata,38,Female,COVID-19,"Fever, cough, breathing difficulty",Medium,No,224,40,74,29,4059,Positive,22.5726,88.3639
+P1323,08-02-2026,Ahmedabad,81,Female,Dengue,"Fever, body pain, rash",Low,Yes,96,34,83,182,4132,Positive,23.0225,72.5714
+P1324,05-05-2026,Mumbai,55,Female,Asthma,"Cough, wheezing, chest tightness",Low,Yes,71,38,60,164,4431,Negative,19.076,72.8777
+P1325,22-01-2026,Bhopal,62,Male,Asthma,"Cough, wheezing, chest tightness",Low,No,290,37,90,35,4120,Neutral,0.0,0.0
+P1326,28-02-2026,Pune,8,Female,Malaria,"Fever, chills, sweating",Low,No,222,40,57,143,1385,Negative,18.5204,73.8567
+P1327,19-05-2026,Nagpur,42,Male,COVID-19,"Fever, cough, breathing difficulty",Low,Yes,288,41,70,6,1181,Positive,0.0,0.0
+P1328,24-06-2026,Patna,9,Female,Asthma,"Cough, wheezing, chest tightness",Medium,No,59,34,78,100,2384,Neutral,0.0,0.0
+P1329,18-04-2026,Kolkata,35,Female,Typhoid,"Fever, weakness, stomach pain",High,Yes,79,27,83,34,3835,Neutral,22.5726,88.3639
+P1330,23-06-2026,Nagpur,41,Male,Flu,"Fever, cough, headache",High,Yes,84,30,57,1,3699,Positive,0.0,0.0
+P1331,30-05-2026,Delhi,75,Male,Asthma,"Cough, wheezing, chest tightness",Low,No,80,37,87,50,3419,Positive,28.7041,77.1025
+P1332,17-03-2026,Kolkata,52,Female,Asthma,"Cough, wheezing, chest tightness",Medium,Yes,224,34,75,162,4719,Negative,22.5726,88.3639
+P1333,31-01-2026,Surat,79,Female,Dengue,"Fever, body pain, rash",Medium,Yes,236,40,42,127,2029,Neutral,0.0,0.0
+P1334,17-02-2026,Jaipur,28,Female,Dengue,"Fever, body pain, rash",High,Yes,279,39,87,146,4324,Negative,0.0,0.0
+P1335,23-02-2026,Indore,87,Male,Malaria,"Fever, chills, sweating",Low,Yes,240,28,86,107,2585,Neutral,0.0,0.0
+P1336,14-05-2026,Chennai,53,Female,Malaria,"Fever, chills, sweating",High,Yes,170,40,81,100,4717,Negative,13.0827,80.2707
+P1337,29-05-2026,Mumbai,4,Female,Typhoid,"Fever, weakness, stomach pain",Medium,No,68,35,90,190,402,Neutral,19.076,72.8777
+P1338,13-04-2026,Indore,56,Female,COVID-19,"Fever, cough, breathing difficulty",Low,Yes,280,26,43,114,2169,Negative,0.0,0.0
+P1339,02-06-2026,Pune,44,Female,Typhoid,"Fever, weakness, stomach pain",Low,Yes,81,41,81,197,2482,Neutral,18.5204,73.8567
+P1340,12-05-2026,Mumbai,53,Female,Typhoid,"Fever, weakness, stomach pain",Low,Yes,173,27,59,152,3071,Neutral,19.076,72.8777
+P1341,12-04-2026,Chennai,21,Female,Typhoid,"Fever, weakness, stomach pain",Low,No,106,38,83,106,681,Positive,13.0827,80.2707
+P1342,21-06-2026,Pune,73,Female,Flu,"Fever, cough, headache",Low,No,92,18,53,92,360,Negative,18.5204,73.8567
+P1343,15-01-2026,Nagpur,9,Male,COVID-19,"Fever, cough, breathing difficulty",Low,No,199,26,65,57,2310,Negative,0.0,0.0
+P1344,03-06-2026,Ahmedabad,43,Female,Typhoid,"Fever, weakness, stomach pain",Medium,No,296,40,48,31,4553,Neutral,23.0225,72.5714
+P1345,28-06-2026,Hyderabad,68,Female,Flu,"Fever, cough, headache",Low,Yes,81,37,31,173,3279,Positive,17.385,78.4867
+P1346,16-03-2026,Bhopal,14,Male,COVID-19,"Fever, cough, breathing difficulty",Low,Yes,153,22,75,172,3511,Neutral,0.0,0.0
+P1347,12-05-2026,Bangalore,44,Male,Flu,"Fever, cough, headache",Low,No,186,36,56,23,1956,Negative,12.9716,77.5946
+P1348,02-03-2026,Lucknow,33,Female,Flu,"Fever, cough, headache",Low,No,286,31,70,52,4846,Positive,0.0,0.0
+P1349,23-01-2026,Kolkata,70,Female,COVID-19,"Fever, cough, breathing difficulty",Low,Yes,194,20,47,13,2357,Positive,22.5726,88.3639
+P1350,22-04-2026,Nagpur,83,Male,Typhoid,"Fever, weakness, stomach pain",High,Yes,229,39,39,120,3814,Positive,0.0,0.0
+P1351,28-05-2026,Ahmedabad,19,Male,Asthma,"Cough, wheezing, chest tightness",Low,Yes,66,36,93,91,2122,Positive,23.0225,72.5714
+P1352,18-06-2026,Indore,16,Male,Dengue,"Fever, body pain, rash",Low,Yes,147,40,93,166,4359,Positive,0.0,0.0
+P1353,20-05-2026,Bhopal,74,Male,Asthma,"Cough, wheezing, chest tightness",High,Yes,179,30,89,0,4577,Negative,0.0,0.0
+P1354,23-05-2026,Delhi,20,Female,Flu,"Fever, cough, headache",Low,Yes,277,41,65,134,875,Neutral,28.7041,77.1025
+P1355,12-06-2026,Hyderabad,50,Female,Flu,"Fever, cough, headache",Medium,Yes,69,37,54,90,684,Negative,17.385,78.4867
+P1356,12-01-2026,Delhi,56,Female,Dengue,"Fever, body pain, rash",High,Yes,260,23,92,99,915,Neutral,28.7041,77.1025
+P1357,12-05-2026,Pune,66,Female,COVID-19,"Fever, cough, breathing difficulty",Low,Yes,276,39,47,155,2690,Neutral,18.5204,73.8567
+P1358,17-01-2026,Ahmedabad,57,Female,COVID-19,"Fever, cough, breathing difficulty",Low,Yes,115,37,78,111,2274,Negative,23.0225,72.5714
+P1359,25-01-2026,Chennai,57,Male,COVID-19,"Fever, cough, breathing difficulty",Low,Yes,96,26,41,13,1834,Negative,13.0827,80.2707
+P1360,27-01-2026,Ahmedabad,38,Female,Dengue,"Fever, body pain, rash",High,Yes,214,40,65,98,740,Positive,23.0225,72.5714
+P1361,31-03-2026,Bangalore,12,Male,COVID-19,"Fever, cough, breathing difficulty",Low,Yes,254,28,51,98,1767,Neutral,12.9716,77.5946
+P1362,10-05-2026,Pune,70,Male,Asthma,"Cough, wheezing, chest tightness",Low,No,241,38,65,153,2694,Positive,18.5204,73.8567
+P1363,13-05-2026,Pune,65,Male,Malaria,"Fever, chills, sweating",Low,Yes,257,19,37,33,3497,Neutral,18.5204,73.8567
+P1364,20-02-2026,Pune,31,Female,Dengue,"Fever, body pain, rash",Low,Yes,157,32,61,175,4380,Positive,18.5204,73.8567
+P1365,31-01-2026,Lucknow,1,Male,Dengue,"Fever, body pain, rash",Medium,No,221,32,81,145,631,Negative,0.0,0.0
+P1366,13-05-2026,Nagpur,9,Male,Flu,"Fever, cough, headache",Medium,No,115,34,46,185,4506,Negative,0.0,0.0
+P1367,30-05-2026,Chennai,15,Female,COVID-19,"Fever, cough, breathing difficulty",Medium,No,167,39,30,199,685,Neutral,13.0827,80.2707
+P1368,22-05-2026,Indore,50,Female,Dengue,"Fever, body pain, rash",Low,No,163,33,90,121,1443,Neutral,0.0,0.0
+P1369,10-02-2026,Pune,83,Male,Flu,"Fever, cough, headache",Medium,No,70,38,76,82,2579,Neutral,18.5204,73.8567
+P1370,20-04-2026,Ahmedabad,5,Female,COVID-19,"Fever, cough, breathing difficulty",Low,Yes,138,27,81,183,2559,Negative,23.0225,72.5714
+P1371,10-04-2026,Chennai,25,Female,COVID-19,"Fever, cough, breathing difficulty",Medium,Yes,219,27,48,5,3678,Neutral,13.0827,80.2707
+P1372,20-04-2026,Surat,63,Male,Malaria,"Fever, chills, sweating",Low,No,192,39,94,62,3698,Positive,0.0,0.0
+P1373,18-05-2026,Hyderabad,65,Male,Malaria,"Fever, chills, sweating",Low,Yes,185,34,93,71,425,Positive,17.385,78.4867
+P1374,18-02-2026,Kolkata,5,Male,Malaria,"Fever, chills, sweating",Low,No,293,36,51,161,768,Positive,22.5726,88.3639
+P1375,30-05-2026,Nagpur,23,Female,Dengue,"Fever, body pain, rash",Low,No,123,25,76,107,2747,Neutral,0.0,0.0
+P1376,27-04-2026,Hyderabad,80,Male,COVID-19,"Fever, cough, breathing difficulty",Low,Yes,126,18,80,151,1845,Positive,17.385,78.4867
+P1377,02-06-2026,Surat,60,Female,COVID-19,"Fever, cough, breathing difficulty",Medium,Yes,77,21,78,129,2938,Neutral,0.0,0.0
+P1378,01-01-2026,Delhi,49,Male,Dengue,"Fever, body pain, rash",Low,Yes,153,40,75,110,4186,Positive,28.7041,77.1025
+P1379,06-03-2026,Kolkata,48,Female,Dengue,"Fever, body pain, rash",Low,No,97,34,31,144,3786,Negative,22.5726,88.3639
+P1380,16-03-2026,Patna,11,Male,Asthma,"Cough, wheezing, chest tightness",Low,No,248,37,74,195,3518,Negative,0.0,0.0
+P1381,29-05-2026,Patna,1,Female,Typhoid,"Fever, weakness, stomach pain",Low,Yes,222,40,57,9,3013,Neutral,0.0,0.0
+P1382,02-03-2026,Lucknow,89,Female,COVID-19,"Fever, cough, breathing difficulty",Low,Yes,112,30,65,195,4324,Positive,0.0,0.0
+P1383,20-04-2026,Bhopal,45,Female,Malaria,"Fever, chills, sweating",Low,Yes,116,30,79,144,3494,Positive,0.0,0.0
+P1384,27-02-2026,Hyderabad,40,Female,Dengue,"Fever, body pain, rash",Low,Yes,114,22,35,66,4038,Neutral,17.385,78.4867
+P1385,26-06-2026,Kolkata,31,Female,Malaria,"Fever, chills, sweating",Low,Yes,77,22,74,57,3658,Positive,22.5726,88.3639
+P1386,28-02-2026,Surat,65,Female,Flu,"Fever, cough, headache",Medium,Yes,274,39,78,175,3502,Neutral,0.0,0.0
+P1387,17-04-2026,Lucknow,50,Female,COVID-19,"Fever, cough, breathing difficulty",High,Yes,199,28,44,40,2857,Neutral,0.0,0.0
+P1388,16-01-2026,Bangalore,11,Male,Typhoid,"Fever, weakness, stomach pain",Medium,No,280,32,85,96,2857,Neutral,12.9716,77.5946
+P1389,05-04-2026,Nagpur,76,Female,Flu,"Fever, cough, headache",Low,No,191,38,59,86,1437,Positive,0.0,0.0
+P1390,20-02-2026,Bangalore,48,Female,Malaria,"Fever, chills, sweating",Medium,No,242,30,84,151,3393,Neutral,12.9716,77.5946
+P1391,08-02-2026,Chennai,11,Male,Asthma,"Cough, wheezing, chest tightness",Low,Yes,174,31,43,49,670,Positive,13.0827,80.2707
+P1392,27-01-2026,Bangalore,19,Female,Dengue,"Fever, body pain, rash",Medium,No,134,27,44,72,3027,Negative,12.9716,77.5946
+P1393,09-04-2026,Hyderabad,52,Male,COVID-19,"Fever, cough, breathing difficulty",Low,Yes,194,41,81,136,2639,Neutral,17.385,78.4867
+P1394,27-04-2026,Jaipur,23,Female,Asthma,"Cough, wheezing, chest tightness",Medium,Yes,288,27,60,143,4715,Positive,0.0,0.0
+P1395,31-01-2026,Patna,60,Female,Typhoid,"Fever, weakness, stomach pain",High,Yes,52,20,45,180,4883,Positive,0.0,0.0
+P1396,18-06-2026,Delhi,89,Female,Asthma,"Cough, wheezing, chest tightness",Low,Yes,227,32,66,187,4914,Neutral,28.7041,77.1025
+P1397,29-05-2026,Lucknow,46,Female,Typhoid,"Fever, weakness, stomach pain",Low,Yes,204,19,41,114,334,Positive,0.0,0.0
+P1398,22-02-2026,Jaipur,78,Male,Dengue,"Fever, body pain, rash",Low,No,279,37,92,100,1211,Negative,0.0,0.0
+P1399,09-01-2026,Mumbai,9,Female,Dengue,"Fever, body pain, rash",Low,Yes,211,35,62,115,623,Neutral,19.076,72.8777
+P1400,22-01-2026,Patna,16,Female,Malaria,"Fever, chills, sweating",Medium,Yes,62,38,60,4,2511,Neutral,0.0,0.0
+P1401,25-04-2026,Bangalore,67,Female,Dengue,"Fever, body pain, rash",Medium,No,263,33,48,23,1636,Neutral,12.9716,77.5946
+P1402,19-06-2026,Bhopal,15,Female,Asthma,"Cough, wheezing, chest tightness",Medium,No,65,28,43,51,2496,Neutral,0.0,0.0
+P1403,05-02-2026,Delhi,57,Male,Dengue,"Fever, body pain, rash",Medium,No,257,31,61,148,1481,Positive,28.7041,77.1025
+P1404,24-06-2026,Delhi,49,Male,Malaria,"Fever, chills, sweating",Low,No,154,27,88,54,4785,Positive,28.7041,77.1025
+P1405,07-05-2026,Surat,62,Female,Flu,"Fever, cough, headache",Medium,Yes,93,30,35,97,3815,Negative,0.0,0.0
+P1406,24-06-2026,Jaipur,75,Female,Malaria,"Fever, chills, sweating",Low,Yes,170,18,49,1,3517,Positive,0.0,0.0
+P1407,14-06-2026,Bhopal,12,Male,Asthma,"Cough, wheezing, chest tightness",Low,Yes,97,18,53,59,3320,Negative,0.0,0.0
+P1408,07-03-2026,Ahmedabad,53,Male,Malaria,"Fever, chills, sweating",Low,Yes,124,34,77,38,1901,Neutral,23.0225,72.5714
+P1409,13-06-2026,Surat,41,Male,Malaria,"Fever, chills, sweating",Low,No,225,27,79,35,4437,Positive,0.0,0.0
+P1410,25-02-2026,Mumbai,82,Male,Dengue,"Fever, body pain, rash",Medium,Yes,63,28,38,110,3191,Negative,19.076,72.8777
+P1411,07-02-2026,Nagpur,37,Male,Flu,"Fever, cough, headache",Medium,Yes,180,19,66,61,2785,Negative,0.0,0.0
+P1412,01-02-2026,Pune,70,Female,COVID-19,"Fever, cough, breathing difficulty",Medium,Yes,173,20,63,147,3291,Positive,18.5204,73.8567
+P1413,04-04-2026,Patna,15,Male,Malaria,"Fever, chills, sweating",Low,Yes,248,37,49,16,4176,Neutral,0.0,0.0
+P1414,15-05-2026,Delhi,44,Female,Asthma,"Cough, wheezing, chest tightness",Medium,Yes,219,18,41,108,3777,Positive,28.7041,77.1025
+P1415,18-06-2026,Lucknow,56,Female,Typhoid,"Fever, weakness, stomach pain",Low,Yes,155,18,78,96,1363,Neutral,0.0,0.0
+P1416,14-05-2026,Surat,57,Female,Typhoid,"Fever, weakness, stomach pain",Medium,No,69,19,89,78,2038,Negative,0.0,0.0
+P1417,11-03-2026,Indore,33,Female,Typhoid,"Fever, weakness, stomach pain",Low,Yes,181,26,48,113,4901,Negative,0.0,0.0
+P1418,27-04-2026,Chennai,75,Female,Malaria,"Fever, chills, sweating",Low,No,126,25,69,190,126,Neutral,13.0827,80.2707
+P1419,01-01-2026,Patna,63,Female,Asthma,"Cough, wheezing, chest tightness",Medium,No,272,33,36,116,4320,Neutral,0.0,0.0
+P1420,23-03-2026,Chennai,10,Male,Malaria,"Fever, chills, sweating",Low,Yes,207,19,75,148,324,Negative,13.0827,80.2707
+P1421,06-01-2026,Bangalore,5,Male,Flu,"Fever, cough, headache",Medium,No,120,20,84,76,3077,Negative,12.9716,77.5946
+P1422,13-06-2026,Mumbai,79,Female,Malaria,"Fever, chills, sweating",Medium,No,220,22,70,140,4454,Neutral,19.076,72.8777
+P1423,25-05-2026,Kolkata,57,Male,Malaria,"Fever, chills, sweating",Low,Yes,77,23,62,91,4247,Negative,22.5726,88.3639
+P1424,20-05-2026,Lucknow,43,Female,Typhoid,"Fever, weakness, stomach pain",High,Yes,55,34,40,6,1500,Neutral,0.0,0.0
+P1425,20-02-2026,Jaipur,15,Female,COVID-19,"Fever, cough, breathing difficulty",Low,No,164,26,45,34,2062,Neutral,0.0,0.0
+P1426,18-05-2026,Chennai,39,Female,Dengue,"Fever, body pain, rash",Low,No,289,35,57,99,561,Negative,13.0827,80.2707
+P1427,10-06-2026,Nagpur,55,Female,Malaria,"Fever, chills, sweating",Medium,No,282,36,54,133,1270,Negative,0.0,0.0
+P1428,02-03-2026,Nagpur,28,Female,Asthma,"Cough, wheezing, chest tightness",High,Yes,154,25,34,119,521,Neutral,0.0,0.0
+P1429,16-04-2026,Bhopal,60,Male,Typhoid,"Fever, weakness, stomach pain",Medium,No,226,39,36,153,2632,Neutral,0.0,0.0
+P1430,06-02-2026,Ahmedabad,51,Female,Typhoid,"Fever, weakness, stomach pain",Medium,Yes,95,25,81,193,2646,Negative,23.0225,72.5714
+P1431,09-01-2026,Nagpur,24,Female,Dengue,"Fever, body pain, rash",High,Yes,244,38,70,180,3860,Negative,0.0,0.0
+P1432,28-01-2026,Patna,79,Male,Flu,"Fever, cough, headache",Low,Yes,132,22,63,59,3702,Neutral,0.0,0.0
+P1433,15-03-2026,Bangalore,49,Male,Flu,"Fever, cough, headache",Low,No,99,21,91,39,1229,Neutral,12.9716,77.5946
+P1434,20-02-2026,Ahmedabad,74,Female,Typhoid,"Fever, weakness, stomach pain",Medium,No,272,34,39,104,4736,Positive,23.0225,72.5714
+P1435,08-01-2026,Pune,77,Male,Flu,"Fever, cough, headache",Low,Yes,229,33,94,174,2880,Neutral,18.5204,73.8567
+P1436,31-01-2026,Indore,48,Female,Asthma,"Cough, wheezing, chest tightness",Low,No,56,21,39,64,2601,Negative,0.0,0.0
+P1437,20-01-2026,Kolkata,78,Female,Malaria,"Fever, chills, sweating",Medium,No,215,35,83,104,1589,Negative,22.5726,88.3639
+P1438,30-06-2026,Lucknow,73,Female,Flu,"Fever, cough, headache",Low,No,156,28,63,182,2833,Negative,0.0,0.0
+P1439,16-02-2026,Indore,53,Male,Dengue,"Fever, body pain, rash",High,Yes,169,27,55,190,2183,Neutral,0.0,0.0
+P1440,08-04-2026,Jaipur,38,Male,Typhoid,"Fever, weakness, stomach pain",High,Yes,127,27,74,180,3983,Positive,0.0,0.0
+P1441,21-01-2026,Ahmedabad,65,Female,Flu,"Fever, cough, headache",Medium,Yes,77,30,61,189,794,Neutral,23.0225,72.5714
+P1442,21-04-2026,Nagpur,80,Male,Flu,"Fever, cough, headache",Medium,Yes,196,35,40,49,1570,Negative,0.0,0.0
+P1443,31-03-2026,Delhi,67,Female,Asthma,"Cough, wheezing, chest tightness",Medium,No,174,25,56,148,1316,Positive,28.7041,77.1025
+P1444,14-03-2026,Chennai,81,Male,COVID-19,"Fever, cough, breathing difficulty",Low,No,248,33,58,164,4839,Neutral,13.0827,80.2707
+P1445,26-01-2026,Kolkata,68,Female,Asthma,"Cough, wheezing, chest tightness",Low,No,229,34,41,43,4669,Neutral,22.5726,88.3639
+P1446,03-03-2026,Jaipur,61,Male,COVID-19,"Fever, cough, breathing difficulty",Medium,Yes,231,33,75,189,4348,Positive,0.0,0.0
+P1447,07-03-2026,Bangalore,69,Female,Flu,"Fever, cough, headache",Low,Yes,287,30,63,9,4196,Negative,12.9716,77.5946
+P1448,28-04-2026,Ahmedabad,72,Male,COVID-19,"Fever, cough, breathing difficulty",Medium,Yes,279,35,47,95,3174,Positive,23.0225,72.5714
+P1449,01-02-2026,Bangalore,52,Male,Flu,"Fever, cough, headache",Low,Yes,121,40,70,155,3139,Negative,12.9716,77.5946
+P1450,18-02-2026,Ahmedabad,70,Male,Flu,"Fever, cough, headache",Low,Yes,110,32,40,134,358,Neutral,23.0225,72.5714
+P1451,05-03-2026,Pune,81,Female,COVID-19,"Fever, cough, breathing difficulty",Low,Yes,227,32,62,33,2587,Neutral,18.5204,73.8567
+P1452,29-05-2026,Ahmedabad,16,Male,Typhoid,"Fever, weakness, stomach pain",Medium,Yes,208,27,66,60,3171,Neutral,23.0225,72.5714
+P1453,20-05-2026,Nagpur,82,Female,COVID-19,"Fever, cough, breathing difficulty",Low,No,207,28,50,78,4116,Neutral,0.0,0.0
+P1454,28-02-2026,Lucknow,46,Female,COVID-19,"Fever, cough, breathing difficulty",Medium,No,240,41,57,85,2554,Negative,0.0,0.0
+P1455,08-05-2026,Delhi,61,Female,COVID-19,"Fever, cough, breathing difficulty",Low,No,234,23,36,107,3108,Positive,28.7041,77.1025
+P1456,14-04-2026,Pune,14,Female,Flu,"Fever, cough, headache",Medium,No,137,31,90,56,3524,Positive,18.5204,73.8567
+P1457,28-05-2026,Bhopal,31,Female,COVID-19,"Fever, cough, breathing difficulty",Low,No,75,18,57,164,1418,Neutral,0.0,0.0
+P1458,29-04-2026,Jaipur,48,Female,COVID-19,"Fever, cough, breathing difficulty",Low,No,100,29,90,195,4485,Neutral,0.0,0.0
+P1459,05-04-2026,Pune,55,Female,Typhoid,"Fever, weakness, stomach pain",High,Yes,215,23,43,37,1408,Neutral,18.5204,73.8567
+P1460,12-03-2026,Bangalore,46,Female,Flu,"Fever, cough, headache",Low,No,178,37,34,32,3888,Negative,12.9716,77.5946
+P1461,18-06-2026,Surat,29,Male,Flu,"Fever, cough, headache",Low,No,221,34,38,186,1857,Neutral,0.0,0.0
+P1462,17-05-2026,Bangalore,38,Female,Malaria,"Fever, chills, sweating",High,Yes,287,35,70,183,610,Negative,12.9716,77.5946
+P1463,14-01-2026,Lucknow,41,Female,Flu,"Fever, cough, headache",Medium,No,228,39,39,142,2702,Positive,0.0,0.0
+P1464,06-06-2026,Nagpur,86,Male,Dengue,"Fever, body pain, rash",High,Yes,127,19,91,4,4632,Positive,0.0,0.0
+P1465,06-06-2026,Lucknow,79,Female,Asthma,"Cough, wheezing, chest tightness",High,Yes,76,32,49,64,1177,Negative,0.0,0.0
+P1466,03-04-2026,Ahmedabad,51,Female,Typhoid,"Fever, weakness, stomach pain",Low,No,183,24,35,121,2197,Neutral,23.0225,72.5714
+P1467,06-02-2026,Patna,64,Female,Malaria,"Fever, chills, sweating",Low,No,140,31,31,42,2850,Positive,0.0,0.0
+P1468,28-05-2026,Delhi,66,Male,Flu,"Fever, cough, headache",Medium,No,292,28,62,164,1651,Neutral,28.7041,77.1025
+P1469,24-04-2026,Jaipur,88,Female,Typhoid,"Fever, weakness, stomach pain",High,Yes,204,40,82,88,3173,Neutral,0.0,0.0
+P1470,06-01-2026,Kolkata,56,Male,Dengue,"Fever, body pain, rash",Low,No,278,27,85,114,2874,Neutral,22.5726,88.3639
+P1471,20-04-2026,Bhopal,1,Male,Typhoid,"Fever, weakness, stomach pain",Low,No,220,31,30,199,874,Negative,0.0,0.0
+P1472,21-01-2026,Ahmedabad,33,Female,Flu,"Fever, cough, headache",Low,Yes,177,27,77,115,2864,Negative,23.0225,72.5714
+P1473,23-01-2026,Jaipur,26,Female,Flu,"Fever, cough, headache",Low,No,130,24,94,142,1366,Positive,0.0,0.0
+P1474,31-01-2026,Nagpur,12,Male,Typhoid,"Fever, weakness, stomach pain",High,Yes,199,38,45,148,617,Neutral,0.0,0.0
+P1475,10-02-2026,Bhopal,76,Female,Flu,"Fever, cough, headache",Low,No,271,32,85,3,2481,Negative,0.0,0.0
+P1476,23-01-2026,Pune,34,Male,Flu,"Fever, cough, headache",High,Yes,153,21,35,182,4068,Positive,18.5204,73.8567
+P1477,21-06-2026,Patna,66,Male,COVID-19,"Fever, cough, breathing difficulty",Low,No,223,18,88,92,4313,Neutral,0.0,0.0
+P1478,10-05-2026,Bangalore,84,Female,Dengue,"Fever, body pain, rash",Low,No,150,24,76,56,4779,Neutral,12.9716,77.5946
+P1479,13-05-2026,Nagpur,20,Female,Typhoid,"Fever, weakness, stomach pain",Medium,Yes,203,18,39,55,4175,Positive,0.0,0.0
+P1480,12-05-2026,Mumbai,85,Female,Typhoid,"Fever, weakness, stomach pain",Medium,Yes,241,30,84,17,1767,Neutral,19.076,72.8777
+P1481,08-02-2026,Patna,69,Male,Asthma,"Cough, wheezing, chest tightness",Medium,No,173,20,83,140,4908,Negative,0.0,0.0
+P1482,21-01-2026,Hyderabad,27,Female,Asthma,"Cough, wheezing, chest tightness",Low,Yes,74,26,67,166,3124,Negative,17.385,78.4867
+P1483,14-02-2026,Ahmedabad,70,Male,Dengue,"Fever, body pain, rash",Low,Yes,202,29,34,66,1146,Negative,23.0225,72.5714
+P1484,29-05-2026,Bangalore,64,Female,Dengue,"Fever, body pain, rash",High,Yes,262,27,41,122,1370,Positive,12.9716,77.5946
+P1485,14-04-2026,Ahmedabad,16,Female,Asthma,"Cough, wheezing, chest tightness",Medium,Yes,147,26,36,58,4204,Negative,23.0225,72.5714
+P1486,23-05-2026,Nagpur,47,Male,COVID-19,"Fever, cough, breathing difficulty",Low,Yes,207,31,53,186,2946,Positive,0.0,0.0
+P1487,18-05-2026,Jaipur,42,Male,Asthma,"Cough, wheezing, chest tightness",High,Yes,203,20,71,85,1416,Positive,0.0,0.0
+P1488,03-06-2026,Delhi,20,Female,Flu,"Fever, cough, headache",Medium,No,213,39,78,24,3248,Negative,28.7041,77.1025
+P1489,24-05-2026,Surat,3,Female,Flu,"Fever, cough, headache",Low,Yes,218,24,43,126,1032,Negative,0.0,0.0
+P1490,04-04-2026,Bhopal,37,Male,Malaria,"Fever, chills, sweating",Low,Yes,123,32,45,114,2277,Positive,0.0,0.0
+P1491,29-03-2026,Patna,67,Male,Malaria,"Fever, chills, sweating",Low,Yes,195,38,33,124,1708,Positive,0.0,0.0
+P1492,18-02-2026,Bhopal,27,Male,Dengue,"Fever, body pain, rash",Low,No,113,20,86,63,4213,Negative,0.0,0.0
+P1493,03-05-2026,Indore,73,Male,Asthma,"Cough, wheezing, chest tightness",Medium,No,99,37,30,173,2766,Negative,0.0,0.0
+P1494,14-05-2026,Delhi,61,Male,Asthma,"Cough, wheezing, chest tightness",Medium,Yes,142,39,39,70,2729,Neutral,28.7041,77.1025
+P1495,25-05-2026,Surat,20,Male,Dengue,"Fever, body pain, rash",Low,No,114,39,60,123,4557,Positive,0.0,0.0
+P1496,18-05-2026,Ahmedabad,30,Male,Flu,"Fever, cough, headache",Low,Yes,233,24,55,163,1577,Positive,23.0225,72.5714
+P1497,20-06-2026,Mumbai,17,Male,Malaria,"Fever, chills, sweating",Medium,Yes,66,18,68,150,709,Negative,19.076,72.8777
+P1498,23-05-2026,Bhopal,6,Male,Asthma,"Cough, wheezing, chest tightness",Medium,Yes,143,32,64,114,553,Negative,0.0,0.0
+P1499,11-04-2026,Surat,69,Male,COVID-19,"Fever, cough, breathing difficulty",High,Yes,58,36,88,129,4879,Positive,0.0,0.0
